@@ -1,25 +1,25 @@
 {
   "package_name": "common_msgs",
-  "output_dir": "/home/evan/UAV_ws/build/common_msgs/rosidl_typesupport_introspection_cpp/common_msgs",
-  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "output_dir": "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_typesupport_introspection_cpp/common_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/XTraj.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/UTraj.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/State.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/Input.idl"
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/XTraj.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/UTraj.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/State.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/Input.idl"
   ],
   "target_dependencies": [
-    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
-    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
-    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/XTraj.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/UTraj.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/State.idl",
-    "/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/Input.idl"
+    "/opt/ros/foxy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/XTraj.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/UTraj.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/State.idl",
+    "/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs/msg/Input.idl"
   ]
 }

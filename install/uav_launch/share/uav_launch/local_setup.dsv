@@ -1,1 +1,2 @@
-/home/evan/UAV_ws/build/uav_launch/ament_cmake_environment_hooks/local_setup.dsv
+source;share/uav_launch/environment/ament_prefix_path.sh
+source;share/uav_launch/environment/path.sh

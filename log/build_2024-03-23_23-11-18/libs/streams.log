@@ -1,0 +1,999 @@
+[1.066s] Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/libs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/libs
+[1.302s] -- The C compiler identification is GNU 9.4.0
+[1.509s] -- The CXX compiler identification is GNU 9.4.0
+[1.524s] -- Check for working C compiler: /usr/bin/cc
+[1.795s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.798s] -- Detecting C compiler ABI info
+[2.072s] -- Detecting C compiler ABI info - done
+[2.107s] -- Detecting C compile features
+[2.108s] -- Detecting C compile features - done
+[2.117s] -- Check for working CXX compiler: /usr/bin/c++
+[2.418s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.423s] -- Detecting CXX compiler ABI info
+[2.724s] -- Detecting CXX compiler ABI info - done
+[2.763s] -- Detecting CXX compile features
+[2.765s] -- Detecting CXX compile features - done
+[2.783s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.897s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.897s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.734s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.048s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.557s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.775s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.525s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.533s] -- Looking for pthread.h
+[5.822s] -- Looking for pthread.h - found
+[5.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.115s] -- Looking for pthread_create in pthreads
+[6.344s] -- Looking for pthread_create in pthreads - not found
+[6.345s] -- Looking for pthread_create in pthread
+[6.633s] -- Looking for pthread_create in pthread - found
+[6.637s] -- Found Threads: TRUE  
+[7.265s] -- Found Git: /usr/bin/git (found version "2.25.1") 
+[7.407s] -- ASIO include directory: /home/ubuntu/UAV_ws/src/libs/libs/asio/src/asio/asio/include
+[7.408s] -- CEREAL include directory: /home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal/include
+[7.654s] -- Configuring done
+[7.692s] -- Generating done
+[7.699s] -- Build files have been written to: /home/ubuntu/UAV_ws/build/libs
+[7.717s] Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/libs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/libs
+[7.727s] Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/libs -- -j4 -l4
+[7.888s] [35m[1mScanning dependencies of target cereal[0m
+[7.889s] [35m[1mScanning dependencies of target sha[0m
+[7.890s] [35m[1mScanning dependencies of target asio[0m
+[7.895s] [35m[1mScanning dependencies of target grampc[0m
+[7.934s] [  2%] [34m[1mPerforming download step (git clone) for 'asio'[0m
+[7.942s] [  4%] [34m[1mPerforming download step (git clone) for 'sha'[0m
+[7.949s] [  7%] [34m[1mNo patch step for 'cereal'[0m
+[7.977s] [  9%] [32mBuilding C object CMakeFiles/grampc.dir/src/euler1.c.o[0m
+[8.018s] -- asio download command succeeded.  See also /home/ubuntu/UAV_ws/src/libs/libs/asio/src/asio-stamp/asio-download-*.log
+[8.069s] [ 11%] [34m[1mNo update step for 'cereal'[0m
+[8.104s] [ 14%] [34m[1mNo patch step for 'asio'[0m
+[8.182s] [ 16%] [32mBuilding C object CMakeFiles/grampc.dir/src/eulermod2.c.o[0m
+[8.213s] [ 19%] [34m[1mNo configure step for 'cereal'[0m
+[8.235s] [ 21%] [34m[1mNo update step for 'asio'[0m
+[8.342s] [ 23%] [34m[1mNo build step for 'cereal'[0m
+[8.355s] [ 26%] [34m[1mNo configure step for 'asio'[0m
+[8.388s] [ 28%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_alloc.c.o[0m
+[8.454s] [ 30%] [34m[1mNo install step for 'cereal'[0m
+[8.469s] [ 33%] [34m[1mNo build step for 'asio'[0m
+[8.500s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/grampc_alloc.c:[m[K In function ‘[01m[Kgrampc_alloc_fields[m[K’:
+[8.501s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/grampc_alloc.c:254:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuserparam[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.503s]   254 | void grampc_alloc_fields(typeGRAMPC **grampc, typeUSERPARAM *userparam)
+[8.577s] [ 35%] [34m[1mCompleted 'cereal'[0m
+[8.591s] [ 38%] [34m[1mNo install step for 'asio'[0m
+[8.705s] [ 40%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_fixedsize.c.o[0m
+[8.737s] [ 42%] [34m[1mCompleted 'asio'[0m
+[8.767s] [ 47%] Built target cereal
+[8.810s] [ 50%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_init.c.o[0m
+[8.815s] [ 52%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_mess.c.o[0m
+[8.841s] -- sha download command succeeded.  See also /home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-download-*.log
+[8.901s] [ 54%] Built target asio
+[8.924s] [ 57%] [34m[1mNo patch step for 'sha'[0m
+[8.946s] [ 59%] [34m[1mNo update step for 'sha'[0m
+[9.056s] [ 61%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_run.c.o[0m
+[9.062s] [ 64%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_setopt.c.o[0m
+[9.089s] [ 66%] [34m[1mNo configure step for 'sha'[0m
+[9.102s] [ 69%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_setparam.c.o[0m
+[9.211s] [ 71%] [34m[1mNo build step for 'sha'[0m
+[9.357s] [ 73%] [32mBuilding C object CMakeFiles/grampc.dir/src/grampc_util.c.o[0m
+[9.369s] [ 76%] [34m[1mNo install step for 'sha'[0m
+[9.428s] [ 78%] [32mBuilding C object CMakeFiles/grampc.dir/src/heun2.c.o[0m
+[9.505s] [ 80%] [34m[1mCompleted 'sha'[0m
+[9.677s] [ 83%] [32mBuilding C object CMakeFiles/grampc.dir/src/rodas.c.o[0m
+[9.695s] [ 85%] Built target sha
+[9.737s] [ 88%] [32mBuilding C object CMakeFiles/grampc.dir/src/ruku45.c.o[0m
+[9.753s] [ 90%] [32mBuilding C object CMakeFiles/grampc.dir/src/simpson.c.o[0m
+[9.792s] In file included from [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:16[m[K:
+[9.794s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:[m[K In function ‘[01m[Ks_wsle[m[K’:
+[9.795s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:147:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.796s]   147 | typeLInt s_wsle([01;35m[Kcilist *dummy[m[K)
+[9.797s]       |                 [01;35m[K~~~~~~~~^~~~~[m[K
+[9.797s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:[m[K In function ‘[01m[Kdo_lio[m[K’:
+[9.798s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:152:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.798s]   152 | typeLInt do_lio(typeLInt *dummy1, typeLInt *dummy2, char *dummy3, ftnlen dummy4)
+[9.799s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:152:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.799s]   152 | typeLInt do_lio(typeLInt *dummy1, typeLInt *dummy2, char *dummy3, ftnlen dummy4)
+[9.800s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:152:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.800s]   152 | typeLInt do_lio(typeLInt *dummy1, typeLInt *dummy2, [01;35m[Kchar *dummy3[m[K, ftnlen dummy4)
+[9.801s]       |                                                     [01;35m[K~~~~~~^~~~~~[m[K
+[9.802s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:152:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy4[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.802s]   152 | typeLInt do_lio(typeLInt *dummy1, typeLInt *dummy2, char *dummy3, [01;35m[Kftnlen dummy4[m[K)
+[9.803s]       |                                                                   [01;35m[K~~~~~~~^~~~~~[m[K
+[9.803s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:[m[K In function ‘[01m[Kdo_fio[m[K’:
+[9.804s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:162:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.804s]   162 | typeLInt do_fio(typeLInt *dummy1, char *dummy2, ftnlen dummy3)
+[9.805s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:162:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.816s]   162 | typeLInt do_fio(typeLInt *dummy1, [01;35m[Kchar *dummy2[m[K, ftnlen dummy3)
+[9.817s]       |                                   [01;35m[K~~~~~~^~~~~~[m[K
+[9.818s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:162:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.818s]   162 | typeLInt do_fio(typeLInt *dummy1, char *dummy2, [01;35m[Kftnlen dummy3[m[K)
+[9.819s]       |                                                 [01;35m[K~~~~~~~^~~~~~[m[K
+[9.819s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:[m[K In function ‘[01m[Ks_wsfe[m[K’:
+[9.820s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:167:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdummy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.821s]   167 | typeLInt s_wsfe([01;35m[Kcilist *dummy[m[K)
+[9.821s]       |                 [01;35m[K~~~~~~~~^~~~~[m[K
+[9.822s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:[m[K At top level:
+[9.822s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/f2cmod.h:170:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K-Wpedantic[m[K]
+[9.823s]   170 | }[01;35m[K;[m[K
+[9.824s]       |  [01;35m[K^[m[K
+[9.824s] [ 92%] [32mBuilding C object CMakeFiles/grampc.dir/src/trapezodial.c.o[0m
+[9.841s] In file included from [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:17[m[K:
+[9.842s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kslvrar_[m[K’:
+[9.843s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:2396:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kier[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.844s]  2396 |  typeRNum *f1, typeLInt *ip1, typeLInt *iphes, typeLInt *ier, typeLInt *
+[9.852s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kslvrai_[m[K’:
+[9.853s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:2708:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcont[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.854s]  2708 |  typeRNum *f2, typeRNum *f3, typeRNum *cont, typeLInt *ip2,
+[9.856s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:2709:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kier[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.857s]  2709 |  typeLInt *iphes, typeLInt *ier, typeLInt *ijob)
+[9.867s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kslvrad_[m[K’:
+[9.868s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:3115:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcont[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.869s]  3115 |  typeRNum *f2, typeRNum *f3, typeRNum *cont, typeLInt *ip1,
+[9.870s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:3116:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kier[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.870s]  3116 |  typeLInt *ip2, typeLInt *iphes, typeLInt *ier, typeLInt *ijob)
+[9.896s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kestrav_[m[K’:
+[9.897s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:4084:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knns[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.899s]  4084 |  typeLInt *nns, typeRNum *e1, typeLInt *lde1, typeRNum *zz,
+[9.908s] In file included from [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:17[m[K:
+[9.909s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kslvseu_[m[K’:
+[9.910s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:4960:12:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmlmas[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.911s]  4960 |  typeLInt *mlmas, typeLInt *mumas, typeLInt *m1, typeLInt *m2, typeLInt *
+[9.912s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:4960:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmumas[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.912s]  4960 |  typeLInt *mlmas, typeLInt *mumas, typeLInt *m1, typeLInt *m2, typeLInt *
+[9.942s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:[m[K In function ‘[01m[Kcontro[m[K’:
+[9.944s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/rodas_decsol_f2c.h:6360:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.944s]  6360 |  typeRNum *cont, [01;35m[Kint *lrc[m[K)
+[9.945s]       |                  [01;35m[K~~~~~^~~[m[K
+[9.951s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[KintsysRodas[m[K’:
+[9.952s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:103:3:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kvoid (*)(int *, double *, double *, double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *))[m[K’ {aka ‘[01m[Kvoid (*)(int *, double *, double *, double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *))[m[K’} to ‘[01m[Kint (*)()[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[9.954s]   103 |   [01;35m[K([m[KU_fp)ffctRodas, &IFCN,
+[9.954s]       |   [01;35m[K^[m[K
+[9.955s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:105:3:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kvoid (*)(int *, double *, double *, double *, int *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *))[m[K’ {aka ‘[01m[Kvoid (*)(int *, double *, double *, double *, int *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *))[m[K’} to ‘[01m[Kint (*)()[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[9.956s]   105 |   [01;35m[K([m[KU_fp)dfdxRodas, &IJAC, &MLJAC, &MUJAC,
+[9.958s]       |   [01;35m[K^[m[K
+[9.960s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:106:3:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kvoid (*)(int *, double *, double *, double *, int *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *))[m[K’ {aka ‘[01m[Kvoid (*)(int *, double *, double *, double *, int *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *))[m[K’} to ‘[01m[Kint (*)()[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[9.964s]   106 |   [01;35m[K([m[KU_fp)dfdtRodas, &IDFX,
+[9.969s]       |   [01;35m[K^[m[K
+[9.972s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:107:3:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kvoid (*)(int *, double *, int *, const typeGRAMPC *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *))[m[K’ {aka ‘[01m[Kvoid (*)(int *, double *, int *, const struct <anonymous> *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *))[m[K’} to ‘[01m[Kint (*)()[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[9.973s]   107 |   [01;35m[K([m[KU_fp)MfctRodas, &IMAS, &MLMAS, &MUMAS,
+[9.974s]       |   [01;35m[K^[m[K
+[9.974s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:108:3:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kvoid (*)(int *, double *, double *, double *, double *, double *, int *, int *, const typeGRAMPC *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const typeGRAMPC *), int *)[m[K’ {aka ‘[01m[Kvoid (*)(int *, double *, double *, double *, double *, double *, int *, int *, const struct <anonymous> *, void (* const)(double *, const double *, const double *, const double *, const double *, const double *, const double *, const struct <anonymous> *), int *)[m[K’} to ‘[01m[Kint (*)()[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[9.975s]   108 |   [01;35m[K([m[KU_fp)solout, &IOUT,
+[9.976s]       |   [01;35m[K^[m[K
+[9.976s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[KffctRodas[m[K’:
+[9.976s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:133:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KN[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.977s]   133 | void ffctRodas([01;35m[Kint *N[m[K, typeRNum *t, typeRNum *x, typeRNum *rhs, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.978s]       |                [01;35m[K~~~~~^[m[K
+[9.979s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[KdfdxRodas[m[K’:
+[9.979s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:167:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KN[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.980s]   167 | void dfdxRodas([01;35m[Kint *N[m[K, typeRNum *t, typeRNum *x, typeRNum *dfdx_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.981s]       |                [01;35m[K~~~~~^[m[K
+[9.981s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:167:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kldfdy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.982s]   167 | void dfdxRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdx_val, [01;35m[Kint *ldfdy[m[K, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.983s]       |                                                                      [01;35m[K~~~~~^~~~~[m[K
+[9.984s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:167:161:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdcdxvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.985s]   167 | void dfdxRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdx_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.987s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:167:214:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpfct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.989s]   167 | void dfdxRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdx_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, [01;35m[Kconst typeffctPtr pfct[m[K)
+[9.991s]       |                                                                                                                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[9.992s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[KdfdtRodas[m[K’:
+[9.993s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:195:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KN[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.994s]   195 | void dfdtRodas([01;35m[Kint *N[m[K, typeRNum *t, typeRNum *x, typeRNum *dfdt_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.995s]       |                [01;35m[K~~~~~^[m[K
+[9.997s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:195:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kldfdy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.998s]   195 | void dfdtRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdt_val, [01;35m[Kint *ldfdy[m[K, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[9.999s]       |                                                                      [01;35m[K~~~~~^~~~~[m[K
+[10.000s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:195:161:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdcdxvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.000s]   195 | void dfdtRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdt_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[10.001s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:195:214:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpfct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.001s]   195 | void dfdtRodas(int *N, typeRNum *t, typeRNum *x, typeRNum *dfdt_val, int *ldfdy, ctypeRNum *tvec, ctypeRNum *xvec, ctypeRNum *uvec, ctypeRNum *pvec, ctypeRNum *dcdxvec, const typeGRAMPC *grampc, [01;35m[Kconst typeffctPtr pfct[m[K)
+[10.002s]       |                                                                                                                                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.003s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[KMfctRodas[m[K’:
+[10.004s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:223:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KN[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.004s]   223 | void MfctRodas([01;35m[Kint *N[m[K, typeRNum *out, int *LMAS, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[10.005s]       |                [01;35m[K~~~~~^[m[K
+[10.006s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:223:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLMAS[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.007s]   223 | void MfctRodas(int *N, typeRNum *out, [01;35m[Kint *LMAS[m[K, const typeGRAMPC *grampc, const typeffctPtr pfct)
+[10.007s]       |                                       [01;35m[K~~~~~^~~~[m[K
+[10.008s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:223:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpfct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.008s]   223 | void MfctRodas(int *N, typeRNum *out, int *LMAS, const typeGRAMPC *grampc, [01;35m[Kconst typeffctPtr pfct[m[K)
+[10.009s]       |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.010s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:[m[K In function ‘[01m[Ksolout[m[K’:
+[10.010s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:238:155:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpfct[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.011s]   238 | void solout(int *nr, typeRNum *xold, typeRNum *x, typeRNum *h, typeRNum *y, typeRNum *cont, int *lrc, int *n, const typeGRAMPC *grampc, [01;35m[Kconst typeffctPtr pfct[m[K, int *irtrn)
+[10.012s]       |                                                                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.012s] [01m[K/home/ubuntu/UAV_ws/src/libs/src/rodas.c:238:166:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kirtrn[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.014s]   238 | void solout(int *nr, typeRNum *xold, typeRNum *x, typeRNum *h, typeRNum *y, typeRNum *cont, int *lrc, int *n, const typeGRAMPC *grampc, const typeffctPtr pfct, [01;35m[Kint *irtrn[m[K)
+[10.016s]       |                                                                                                                                                                 [01;35m[K~~~~~^~~~~[m[K
+[10.018s] [ 95%] [32mBuilding CXX object CMakeFiles/grampc.dir/src/grampc.cpp.o[0m
+[10.078s] [ 97%] [32mBuilding CXX object CMakeFiles/grampc.dir/src/problem_description.cpp.o[0m
+[10.290s] In file included from [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/grampc.hpp:18[m[K,
+[10.291s]                  from [01m[K/home/ubuntu/UAV_ws/src/libs/src/grampc.cpp:16[m[K:
+[10.291s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.292s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.293s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.294s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.295s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.296s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.296s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.297s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.298s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.298s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.299s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.300s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.301s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.301s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.302s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.303s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.303s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.304s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.305s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.307s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.307s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.308s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.309s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.310s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.311s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.312s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.313s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::lfct(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.314s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.315s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.315s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.316s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.317s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.318s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.319s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.319s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.320s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.321s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.322s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.322s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.323s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.324s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.325s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldx(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.327s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.327s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.328s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.330s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.331s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.332s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.332s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.333s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.334s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.334s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.335s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.336s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.337s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.338s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.340s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldu(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.341s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.343s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.343s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.344s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.344s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.346s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.347s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.348s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.350s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.352s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.354s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.356s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.357s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.359s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.373s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldp(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.376s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.376s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.377s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.377s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.378s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.379s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.380s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.380s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.381s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.382s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.382s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.382s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.383s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.384s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.384s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Vfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.385s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.386s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.387s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.387s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.388s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.388s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.388s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.389s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.389s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.390s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.390s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdx(double*, double, const double*, const double*, const double*)[m[K’:
+[10.391s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.391s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.392s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.392s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.393s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.393s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.394s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.394s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.395s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.395s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.396s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdp(double*, double, const double*, const double*, const double*)[m[K’:
+[10.396s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.397s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.397s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.398s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.398s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.398s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.399s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.399s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.399s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.400s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.400s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdT(double*, double, const double*, const double*, const double*)[m[K’:
+[10.400s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.401s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.402s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.403s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.403s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.403s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.404s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.404s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.405s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.405s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.406s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::gfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.407s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.408s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.409s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.409s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.410s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.410s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.410s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.411s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.411s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.411s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.412s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdx_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.413s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.413s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.414s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.414s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.415s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.415s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.416s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.416s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.417s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.417s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.418s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.418s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.419s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.420s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.420s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.421s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.421s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.422s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.423s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.423s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.423s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.424s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.424s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.425s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.426s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.426s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.427s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.428s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.428s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.428s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.429s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.429s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.430s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.431s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.431s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.432s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.432s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.433s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.434s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::hfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.435s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.435s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.436s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.437s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.438s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.439s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.439s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.440s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.440s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.441s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.441s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdx_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.442s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.442s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.442s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.443s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.443s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.444s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.444s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.444s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.445s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.446s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.447s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.448s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.449s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.449s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.451s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.451s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.452s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.452s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.453s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.453s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.453s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.454s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.454s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.454s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.455s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.455s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.456s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.457s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.458s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.459s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.460s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.461s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.462s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.463s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.464s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.464s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.465s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.465s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.466s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::gTfct(double*, double, const double*, const double*)[m[K’:
+[10.466s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.467s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.467s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.467s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.468s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.468s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.469s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.469s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.469s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdx_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.470s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.471s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.471s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.472s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.472s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.473s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.473s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.474s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.475s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.476s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.477s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdp_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.478s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.479s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.479s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.479s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.480s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.480s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.480s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.481s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.481s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.481s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.482s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdT_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.483s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.484s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.485s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.487s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.487s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.488s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.488s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.489s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.490s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.491s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.493s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::hTfct(double*, double, const double*, const double*)[m[K’:
+[10.494s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.496s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.497s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.497s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.498s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.499s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.499s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.500s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.500s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdx_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.501s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.502s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.503s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.503s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.503s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.504s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.504s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.505s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.505s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.506s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.506s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdp_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.507s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.507s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.507s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.508s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.508s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.508s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.508s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.509s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.509s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.510s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.511s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdT_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.511s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.511s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.512s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.512s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.513s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.515s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.515s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.516s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.517s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.517s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.518s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdx(double*, double, const double*, const double*, const double*)[m[K’:
+[10.518s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.518s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.519s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.519s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.520s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.520s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.520s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.521s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.521s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.522s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.522s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdxtrans(double*, double, const double*, const double*, const double*)[m[K’:
+[10.522s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.523s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.523s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.523s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.524s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.524s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.524s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.524s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.525s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.525s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.525s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdt(double*, double, const double*, const double*, const double*)[m[K’:
+[10.526s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.526s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.526s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.527s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.527s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.528s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.528s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.528s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.528s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.529s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.529s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dHdxdt(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.530s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.530s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.530s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.531s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.531s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.532s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.532s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.533s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.533s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.534s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.534s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.535s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.535s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Mfct(double*)[m[K’:
+[10.536s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:122:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.536s]   122 |   virtual void Mfct(typeRNum *out) {}
+[10.537s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Mtrans(double*)[m[K’:
+[10.538s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:124:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.538s]   124 |   virtual void Mtrans(typeRNum *out) {}
+[10.538s] In file included from [01m[K/home/ubuntu/UAV_ws/src/libs/src/problem_description.cpp:15[m[K:
+[10.539s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.539s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.539s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.540s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.540s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.540s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.540s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.541s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.541s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.541s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.542s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.542s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:44:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.542s]    44 |   virtual void dfdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.542s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.543s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.543s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.543s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.543s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.544s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.544s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.544s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.544s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.545s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.546s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.546s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:46:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.546s]    46 |   virtual void dfdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *adj, ctypeRNum *u, ctypeRNum *p) {}
+[10.547s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::lfct(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.547s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.547s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.548s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.548s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.549s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.550s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.550s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.551s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.551s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.552s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.552s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.553s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.553s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:51:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.554s]    51 |   virtual void lfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.554s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldx(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.554s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.554s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.555s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.555s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.555s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.556s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.556s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.556s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.556s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.557s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.557s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.557s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.557s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:53:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.558s]    53 |   virtual void dldx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.558s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldu(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.558s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.559s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.559s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.560s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.560s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.560s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.561s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.561s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.562s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.563s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.563s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.564s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.565s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:55:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.566s]    55 |   virtual void dldu(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.566s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dldp(double*, double, const double*, const double*, const double*, const double*, const double*)[m[K’:
+[10.567s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.568s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.568s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.569s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.569s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.570s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.570s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.570s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.571s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.571s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.571s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.572s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.572s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:57:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kudes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.572s]    57 |   virtual void dldp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *xdes, ctypeRNum *udes) {}
+[10.572s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Vfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.573s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.573s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.573s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.574s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.574s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.574s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.575s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.575s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.575s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:61:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.576s]    61 |   virtual void Vfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.576s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdx(double*, double, const double*, const double*, const double*)[m[K’:
+[10.576s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.576s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.577s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.577s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.578s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.578s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.578s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.579s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.579s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:63:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.580s]    63 |   virtual void dVdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.580s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdp(double*, double, const double*, const double*, const double*)[m[K’:
+[10.581s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.581s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.582s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.582s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.582s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.582s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.583s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.583s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.583s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:65:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.584s]    65 |   virtual void dVdp(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.584s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dVdT(double*, double, const double*, const double*, const double*)[m[K’:
+[10.584s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.585s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.585s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.585s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.585s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.586s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.586s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.586s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.587s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:67:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxdes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.587s]    67 |   virtual void dVdT(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *xdes) {}
+[10.587s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::gfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.588s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.588s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.589s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.589s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.589s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.589s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.590s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.590s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.590s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:71:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.591s]    71 |   virtual void gfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.591s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdx_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.592s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.592s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.592s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.593s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.593s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.594s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.595s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.595s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.596s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.596s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.597s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:73:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.597s]    73 |   virtual void dgdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.598s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.598s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.599s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.599s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.600s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.601s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.601s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.602s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.603s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.603s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.603s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.604s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:75:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.604s]    75 |   virtual void dgdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.604s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.605s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.605s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.605s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.606s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.606s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.606s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.606s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.607s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.607s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.607s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.607s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:77:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.608s]    77 |   virtual void dgdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.608s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::hfct(double*, double, const double*, const double*, const double*)[m[K’:
+[10.608s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.608s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.609s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.609s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.609s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.609s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.610s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.610s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.610s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:81:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.610s]    81 |   virtual void hfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.611s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdx_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.611s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.611s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.611s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.612s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.613s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.613s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.614s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.614s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.614s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.614s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.615s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:83:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.615s]    83 |   virtual void dhdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.615s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdu_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.616s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.617s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.618s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.618s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.619s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.620s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.620s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.621s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.621s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.622s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.623s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:85:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.624s]    85 |   virtual void dhdu_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.624s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhdp_vec(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.624s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.625s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.625s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.625s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.626s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.626s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.626s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.626s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.627s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.627s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.627s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:87:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.627s]    87 |   virtual void dhdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p, ctypeRNum *vec) {}
+[10.628s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::gTfct(double*, double, const double*, const double*)[m[K’:
+[10.628s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.628s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.628s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.629s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.629s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.629s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.629s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:91:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.630s]    91 |   virtual void gTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.630s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdx_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.630s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.630s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.631s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.631s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.631s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.632s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.632s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.633s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.634s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:93:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.634s]    93 |   virtual void dgTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.634s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdp_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.635s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.635s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.636s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.637s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.638s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.639s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.639s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.640s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.641s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:95:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.642s]    95 |   virtual void dgTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.643s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dgTdT_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.643s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.644s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.644s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.645s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.646s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.646s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.646s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.647s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.647s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:97:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.648s]    97 |   virtual void dgTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.648s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::hTfct(double*, double, const double*, const double*)[m[K’:
+[10.648s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.649s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.649s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.649s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.649s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.650s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.650s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:101:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.650s]   101 |   virtual void hTfct(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p) {}
+[10.650s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdx_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.651s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.651s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.651s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.651s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.652s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.652s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.652s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.653s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.653s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:103:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.653s]   103 |   virtual void dhTdx_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.653s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdp_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.654s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.654s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.654s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.654s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.655s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.655s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.655s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.655s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.656s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:105:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.656s]   105 |   virtual void dhTdp_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.656s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dhTdT_vec(double*, double, const double*, const double*, const double*)[m[K’:
+[10.656s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.657s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.657s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.658s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.658s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.659s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.659s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.659s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.660s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:107:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvec[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.660s]   107 |   virtual void dhTdT_vec(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *p, ctypeRNum *vec) {}
+[10.660s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdx(double*, double, const double*, const double*, const double*)[m[K’:
+[10.661s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.661s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.662s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.662s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.662s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.663s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.663s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.663s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.663s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:114:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.664s]   114 |   virtual void dfdx(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.664s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdxtrans(double*, double, const double*, const double*, const double*)[m[K’:
+[10.664s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.665s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.665s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.665s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.666s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.666s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.666s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.667s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.667s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:116:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.667s]   116 |   virtual void dfdxtrans(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.668s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dfdt(double*, double, const double*, const double*, const double*)[m[K’:
+[10.668s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.668s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.669s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.669s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.670s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.670s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.670s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.671s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.672s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:118:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.672s]   118 |   virtual void dfdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *p) {}
+[10.672s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::dHdxdt(double*, double, const double*, const double*, const double*, const double*)[m[K’:
+[10.673s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.673s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.674s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.674s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.675s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.676s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.677s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.677s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.678s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kadj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.678s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.678s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:120:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.679s]   120 |   virtual void dHdxdt(typeRNum *out, ctypeRNum t, ctypeRNum *x, ctypeRNum *u, ctypeRNum *adj, ctypeRNum *p) {}
+[10.679s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Mfct(double*)[m[K’:
+[10.679s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:122:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.679s]   122 |   virtual void Mfct(typeRNum *out) {}
+[10.680s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:[m[K In member function ‘[01m[Kvirtual void grampc::ProblemDescription::Mtrans(double*)[m[K’:
+[10.680s] [01m[K/home/ubuntu/UAV_ws/src/libs/include/libs/problem_description.hpp:124:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.680s]   124 |   virtual void Mtrans(typeRNum *out) {}
+[11.820s] [100%] [32m[1mLinking CXX static library libgrampc.a[0m
+[11.962s] [100%] Built target grampc
+[12.001s] Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/libs -- -j4 -l4
+[12.352s] Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/libs
+[12.384s] -- Install configuration: ""
+[12.385s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/library_path.sh
+[12.385s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/library_path.dsv
+[12.387s] -- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs
+[12.387s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/eulermod2.h
+[12.388s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/f2cmod.h
+[12.388s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/rodas.h
+[12.389s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/simpson.h
+[12.389s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/probfct.h
+[12.390s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/problem_description.hpp
+[12.391s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_init.h
+[12.391s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_util.h
+[12.392s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_macro.h
+[12.393s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_mess.h
+[12.393s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/rodas_decsol_f2c.h
+[12.395s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/ruku45.h
+[12.396s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/euler1.h
+[12.396s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_setparam.h
+[12.397s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc.hpp
+[12.398s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_run.h
+[12.398s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/trapezodial.h
+[12.399s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_setopt.h
+[12.399s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_fixedsize.h
+[12.400s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_alloc.h
+[12.401s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc.h
+[12.401s] -- Installing: /home/ubuntu/UAV_ws/install/libs/include/libs/heun2.h
+[12.402s] -- Installing: /home/ubuntu/UAV_ws/install/libs/lib/libgrampc.a
+[12.407s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/package_run_dependencies/libs
+[12.408s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/parent_prefix_path/libs
+[12.410s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/ament_prefix_path.sh
+[12.411s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/ament_prefix_path.dsv
+[12.412s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/path.sh
+[12.413s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/path.dsv
+[12.414s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.bash
+[12.414s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.sh
+[12.415s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.zsh
+[12.416s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.dsv
+[12.417s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/package.dsv
+[12.418s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/packages/libs
+[12.419s] -- Old export file "/home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport.cmake" will be replaced.  Removing files [/home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport-debug.cmake].
+[12.420s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport.cmake
+[12.421s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport-noconfig.cmake
+[12.422s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/ament_cmake_export_targets-extras.cmake
+[12.423s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/libsConfig.cmake
+[12.424s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/libsConfig-version.cmake
+[12.425s] -- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/package.xml
+[12.431s] Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/libs

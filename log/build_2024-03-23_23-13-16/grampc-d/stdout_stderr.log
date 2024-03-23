@@ -1,0 +1,765 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found libs: 0.0.0 (/home/ubuntu/UAV_ws/install/libs/share/libs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/UAV_ws/src/grampc-d/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/UAV_ws/build/grampc-d
+[35m[1mScanning dependencies of target grampcd[0m
+[  5%] [32mBuilding CXX object CMakeFiles/grampcd.dir/src/agent/neighbor.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/grampcd.dir/src/agent/agent.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/grampcd.dir/src/simulator/simulator.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/grampcd.dir/src/coord/coordinator.cpp.o[0m
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/agent/agent.hpp:19[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/agent/neighbor.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kcereal/archives/binary.hpp: No such file or directory
+   16 | #include [01;31m[K"cereal/archives/binary.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/agent/agent.hpp:19[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/agent/agent.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kcereal/archives/binary.hpp: No such file or directory
+   16 | #include [01;31m[K"cereal/archives/binary.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/grampcd.dir/build.make:63: CMakeFiles/grampcd.dir/src/agent/agent.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/grampcd.dir/build.make:76: CMakeFiles/grampcd.dir/src/agent/neighbor.cpp.o] Error 1
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/problem_description_central.hpp:19[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/solver_central.hpp:16[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/simulator/simulator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/simulator/simulator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kcereal/archives/binary.hpp: No such file or directory
+   16 | #include [01;31m[K"cereal/archives/binary.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/grampcd.dir/build.make:102: CMakeFiles/grampcd.dir/src/simulator/simulator.cpp.o] Error 1
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:21:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   21 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(CommunicationInterfaceLocal);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:21:49:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   21 |  DMPC_CLASS_FORWARD(CommunicationInterfaceLocal)[01;35m[K;[m[K
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:22:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   22 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(CommunicationInterface);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:22:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   22 |  DMPC_CLASS_FORWARD(CommunicationInterface)[01;35m[K;[m[K
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:24:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   24 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Solution);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:24:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   24 |  DMPC_CLASS_FORWARD(Solution)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:26:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   26 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Agent);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:26:27:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   26 |  DMPC_CLASS_FORWARD(Agent)[01;35m[K;[m[K
+      |                           [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:27:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   27 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Neighbor);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:27:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   27 |  DMPC_CLASS_FORWARD(Neighbor)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:28:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   28 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Coordinator);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:28:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   28 |  DMPC_CLASS_FORWARD(Coordinator)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:29:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   29 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(StepSelector);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:29:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   29 |  DMPC_CLASS_FORWARD(StepSelector)[01;35m[K;[m[K
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:30:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   30 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(SyncStepSelector);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:30:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   30 |  DMPC_CLASS_FORWARD(SyncStepSelector)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:31:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   31 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(AsyncStepSelector);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:31:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   31 |  DMPC_CLASS_FORWARD(AsyncStepSelector)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:33:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   33 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(DmpcInterface);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:33:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   33 |  DMPC_CLASS_FORWARD(DmpcInterface)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:35:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   35 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Simulator);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:35:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   35 |  DMPC_CLASS_FORWARD(Simulator)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:37:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   37 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(CommunicationData);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:37:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   37 |  DMPC_CLASS_FORWARD(CommunicationData)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:39:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   39 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(ModelFactory);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:39:34:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |  DMPC_CLASS_FORWARD(ModelFactory)[01;35m[K;[m[K
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:40:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   40 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(AgentModel);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:40:32:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |  DMPC_CLASS_FORWARD(AgentModel)[01;35m[K;[m[K
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:41:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   41 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(CouplingModel);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:41:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   41 |  DMPC_CLASS_FORWARD(CouplingModel)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:43:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   43 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Logging);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:43:29:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 |  DMPC_CLASS_FORWARD(Logging)[01;35m[K;[m[K
+      |                             [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:45:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   45 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(ApproximateNeighbor);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:45:41:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   45 |  DMPC_CLASS_FORWARD(ApproximateNeighbor)[01;35m[K;[m[K
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:46:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   46 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(SolverCentral);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:46:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   46 |  DMPC_CLASS_FORWARD(SolverCentral)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:47:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   47 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(SolverLocal);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:47:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |  DMPC_CLASS_FORWARD(SolverLocal)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:48:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   48 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(SolverLocalADMM);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:48:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   48 |  DMPC_CLASS_FORWARD(SolverLocalADMM)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:49:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   49 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(SolverLocalSensi);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:49:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   49 |  DMPC_CLASS_FORWARD(SolverLocalSensi)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   34 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:50:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_CLASS_FORWARD[m[K’
+   50 |  [01;36m[KDMPC_CLASS_FORWARD[m[K(Simulator);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:50:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 |  DMPC_CLASS_FORWARD(Simulator)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:52:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   52 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(AgentInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:52:32:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   52 |  DMPC_STRUCT_FORWARD(AgentInfo)[01;35m[K;[m[K
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:53:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   53 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(CouplingInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:53:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   53 |  DMPC_STRUCT_FORWARD(CouplingInfo)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:55:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   55 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(AgentState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:55:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   55 |  DMPC_STRUCT_FORWARD(AgentState)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:56:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   56 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(CouplingState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:56:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   56 |  DMPC_STRUCT_FORWARD(CouplingState)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:57:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   57 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(MultiplierState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:57:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   57 |  DMPC_STRUCT_FORWARD(MultiplierState)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:58:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   58 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(PenaltyState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:58:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   58 |  DMPC_STRUCT_FORWARD(PenaltyState)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:59:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   59 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(SensiState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:59:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |  DMPC_STRUCT_FORWARD(SensiState)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:60:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   60 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(ConstraintState);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:60:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   60 |  DMPC_STRUCT_FORWARD(ConstraintState)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:63:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   63 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(AgentInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:63:32:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   63 |  DMPC_STRUCT_FORWARD(AgentInfo)[01;35m[K;[m[K
+      |                                [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:64:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   64 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(CouplingInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:64:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   64 |  DMPC_STRUCT_FORWARD(CouplingInfo)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:65:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   65 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(OptimizationInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:65:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   65 |  DMPC_STRUCT_FORWARD(OptimizationInfo)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:66:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   66 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(CommunicationInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:66:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   66 |  DMPC_STRUCT_FORWARD(CommunicationInfo)[01;35m[K;[m[K
+      |                                        [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:67:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   67 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(TuningInfo);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:67:33:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   67 |  DMPC_STRUCT_FORWARD(TuningInfo)[01;35m[K;[m[K
+      |                                 [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:69:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   69 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(Message);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:69:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   69 |  DMPC_STRUCT_FORWARD(Message)[01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |         DMPC_DECLARE_PTR(C, C)[01;35m[K;[m[K
+      |                               [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:70:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDMPC_STRUCT_FORWARD[m[K’
+   70 |  [01;36m[KDMPC_STRUCT_FORWARD[m[K(MessageHandler);
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15[m[K,
+                 from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:70:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   70 |  DMPC_STRUCT_FORWARD(MessageHandler)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:35:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   35 |         [01;35m[Kconst[m[K bool register_agent(const AgentInfo& agent_info);
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:37:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   37 |         [01;35m[Kconst[m[K bool register_coupling(const CouplingInfo& coupling_info);
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:40:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   40 |         [01;35m[Kconst[m[K bool deregister_agent(const AgentInfo& agent_info);
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:41:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   41 |         [01;35m[Kconst[m[K bool deregister_coupling(CouplingInfoPtr coupling_info);
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:47:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   47 |         [01;35m[Kconst[m[K unsigned int get_numberOfAgents() const;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:63:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   63 |         [01;35m[Kconst[m[K bool solve_ADMM(int outer_iterations = 1, int inner_iterations = 1);
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:72:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   72 |         [01;35m[Kconst[m[K bool solve_sensi(int iterations = 1);
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:15[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:77:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   77 |     [01;35m[Kconst[m[K bool compare_stateDimensions( const AgentState& state_1, const AgentState& state_2 );
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:79:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   79 |     [01;35m[Kconst[m[K bool compare_stateDimensions( const CouplingState& state_1, const CouplingState& state_2 );
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:81:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   81 |     [01;35m[Kconst[m[K bool compare_stateDimensions( const MultiplierState& state_1, const MultiplierState& state_2 );
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:83:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   83 |     [01;35m[Kconst[m[K bool compare_stateDimensions( const PenaltyState& state_1, const PenaltyState& state_2 );
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:85:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   85 |     [01;35m[Kconst[m[K bool compare_stateDimensions(const SensiState& state_1, const SensiState& state_2);
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:87:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   87 |     [01;35m[Kconst[m[K bool compare_stateDimensions(const ConstraintState& state_1, const ConstraintState& state_2);
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:18[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:38:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   38 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector<int>& list, const int element);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:40:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   40 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector<std::shared_ptr<CouplingInfo>>& list, const CouplingInfo& element);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:42:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   42 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector< CouplingInfo >& list, const CouplingInfo& element);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:44:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   44 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector< CommunicationDataPtr >& list, const std::shared_ptr<CommunicationData>& element);
+      |          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:18[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:46:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   46 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector<NeighborPtr>& list, const int neighbor_id);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:48:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   48 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector<NeighborPtr>& list, const NeighborPtr& element);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:50:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   50 |   static [01;35m[Kconst[m[K bool is_element_in_vector(const std::vector<AgentInfo>& list, const int id);
+      |          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:20[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:33:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   33 |         virtual [01;35m[Kconst[m[K bool register_agent(const AgentPtr& agent) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:35:14:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   35 |      virtual [01;35m[Kconst[m[K bool deregister_agent(const AgentInfo& agent) = 0;
+      |              [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:37:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   37 |         virtual [01;35m[Kconst[m[K bool register_coupling(const CouplingInfo& coupling) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:39:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   39 |         virtual [01;35m[Kconst[m[K bool deregister_coupling(const CouplingInfo& coupling) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:42:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   42 |         virtual [01;35m[Kconst[m[K bool fromCommunication_deregistered_coupling(const CouplingInfo& coupling) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:45:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   45 |         virtual [01;35m[Kconst[m[K bool send_numberOfNeighbors( const int number, const int from, const int to ) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:47:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   47 |         virtual [01;35m[Kconst[m[K bool send_localCopies(const AgentState& state, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:49:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   49 |         virtual [01;35m[Kconst[m[K bool send_agentState(const AgentState& state, const ConstraintState& constr_state, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:20[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:51:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   51 |         virtual [01;35m[Kconst[m[K bool send_desiredAgentState( const AgentState& desired_state, const int from, const int to ) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:53:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   53 |         virtual [01;35m[Kconst[m[K bool send_couplingState(const CouplingState& state, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:55:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   55 |         virtual [01;35m[Kconst[m[K bool send_couplingState(const CouplingState& state, const CouplingState& state2, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:57:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   57 |         virtual [01;35m[Kconst[m[K bool send_multiplierState(const MultiplierState& state, PenaltyState penalty, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:59:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   59 |         virtual [01;35m[Kconst[m[K bool send_convergenceFlag(const bool converged, const int from) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:61:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   61 |         virtual [01;35m[Kconst[m[K bool send_stoppedAlgFlag(const bool flag, const int from, const int to) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:63:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   63 |         virtual [01;35m[Kconst[m[K bool send_stoppedAlgFlag(const bool flag, const int from) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:66:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   66 |         virtual [01;35m[Kconst[m[K bool configure_optimization(const OptimizationInfo& info) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:69:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   69 |         virtual [01;35m[Kconst[m[K bool trigger_step(const AlgStep& step) = 0;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:122:17:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  122 |         virtual [01;35m[Kconst[m[K unsigned int get_numberOfAgents() const = 0;
+      |                 [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:22[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/info/agent_info.hpp:33:3:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   33 |   [01;35m[Kconst[m[K bool operator== (const AgentInfo& info) const { return (id_ == info.id_) && (model_name_ == info.model_name_); }
+      |   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:23[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/info/coupling_info.hpp:35:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   35 |         [01;35m[Kconst[m[K bool operator== (const CouplingInfo &info) const
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13[m[K:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:[m[K In constructor ‘[01m[Kgrampcd::Coordinator::Coordinator(const CommunicationInterfacePtr&, bool, const LoggingPtr&)[m[K’:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:105:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgrampcd::Coordinator::simulation_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  105 |         bool [01;35m[Ksimulation_[m[K = false;
+      |              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:102:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kgrampcd::LoggingPtr grampcd::Coordinator::log_[m[K’ [[01;35m[K-Wreorder[m[K]
+  102 |         LoggingPtr [01;35m[Klog_[m[K;
+      |                    [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:28:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   28 |     [01;35m[KCoordinator[m[K::Coordinator(const CommunicationInterfacePtr& communication_interface, bool simulation, const LoggingPtr& log)
+      |     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:35:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   35 |     [01;35m[Kconst[m[K bool Coordinator::register_agent(const AgentInfo& agent_info)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:62:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   62 |     [01;35m[Kconst[m[K bool Coordinator::register_coupling(const CouplingInfo& coupling_info)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:115:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  115 |     [01;35m[Kconst[m[K bool Coordinator::deregister_agent(const AgentInfo &agent_info)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:142:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  142 |     [01;35m[Kconst[m[K bool Coordinator::deregister_coupling(CouplingInfoPtr coupling_info)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:[m[K In member function ‘[01m[Kvoid grampcd::Coordinator::print_network() const[m[K’:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:181:26:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  181 |         for( const auto& [01;35m[K[[m[Kid, info] : agents_ )
+      |                          [01;35m[K^[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:195:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  195 |     [01;35m[Kconst[m[K unsigned int Coordinator::get_numberOfAgents() const
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:223:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  223 |     [01;35m[Kconst[m[K bool Coordinator::solve_ADMM(int outer_iterations, int inner_iterations)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:302:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  302 |     [01;35m[Kconst[m[K bool Coordinator::solve_sensi(int iter)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:[m[K In member function ‘[01m[Kvoid grampcd::Coordinator::fromCommunication_received_flagStoppedAlg(bool, int)[m[K’:
+[01m[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:362:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  362 |     void Coordinator::fromCommunication_received_flagStoppedAlg([01;35m[Kbool flag[m[K, int from)
+      |                                                                 [01;35m[K~~~~~^~~~[m[K
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/grampcd.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

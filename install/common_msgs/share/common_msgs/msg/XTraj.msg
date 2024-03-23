@@ -1,1 +1,1 @@
-/home/evan/UAV_ws/src/common_msgs/msg/XTraj.msg
+float64[] data

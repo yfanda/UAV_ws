@@ -1,0 +1,213 @@
+[19.495s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--packages-select', 'grampc-d', '--cmake-clean-cache']
+[19.495s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=True, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaae961f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['grampc-d'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaae961f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaae96e50>)
+[20.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[20.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[20.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[20.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[20.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[20.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[20.354s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/UAV_ws'
+[20.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[20.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[20.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[20.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[20.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[20.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[20.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[20.411s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[20.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[20.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[20.412s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[20.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[20.413s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[20.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[20.414s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[20.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[20.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[20.415s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['ignore', 'ignore_ament_install']
+[20.415s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'ignore'
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'ignore_ament_install'
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['colcon_pkg']
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'colcon_pkg'
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['colcon_meta']
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'colcon_meta'
+[20.416s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['ros']
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'ros'
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['cmake', 'python']
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'cmake'
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'python'
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extensions ['python_setup_py']
+[20.417s] Level 1:colcon.colcon_core.package_identification:_identify(my_bag_folder) by extension 'python_setup_py'
+[20.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[20.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[20.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[20.418s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[20.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[20.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[20.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[20.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[20.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[20.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore'
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore_ament_install'
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_pkg']
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_pkg'
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_meta']
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_meta'
+[20.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ros']
+[20.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ros'
+[20.430s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_msgs' with type 'ros.ament_cmake' and name 'common_msgs'
+[20.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['ignore', 'ignore_ament_install']
+[20.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ignore'
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ignore_ament_install'
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['colcon_pkg']
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'colcon_pkg'
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['colcon_meta']
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'colcon_meta'
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['ros']
+[20.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ros'
+[20.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/grampc-d' with type 'ros.ament_cmake' and name 'grampc-d'
+[20.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['ignore', 'ignore_ament_install']
+[20.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ignore'
+[20.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ignore_ament_install'
+[20.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['colcon_pkg']
+[20.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'colcon_pkg'
+[20.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['colcon_meta']
+[20.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'colcon_meta'
+[20.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['ros']
+[20.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ros'
+[20.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libs' with type 'ros.ament_cmake' and name 'libs'
+[20.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['ignore', 'ignore_ament_install']
+[20.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ignore'
+[20.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ignore_ament_install'
+[20.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['colcon_pkg']
+[20.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'colcon_pkg'
+[20.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['colcon_meta']
+[20.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'colcon_meta'
+[20.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['ros']
+[20.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ros'
+[20.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_node' with type 'ros.ament_cmake' and name 'mpc_node'
+[20.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['ignore', 'ignore_ament_install']
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ignore'
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ignore_ament_install'
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['colcon_pkg']
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'colcon_pkg'
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['colcon_meta']
+[20.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'colcon_meta'
+[20.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['ros']
+[20.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ros'
+[20.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulator_node' with type 'ros.ament_cmake' and name 'simulator_node'
+[20.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['ignore', 'ignore_ament_install']
+[20.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ignore'
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ignore_ament_install'
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['colcon_pkg']
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'colcon_pkg'
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['colcon_meta']
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'colcon_meta'
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['ros']
+[20.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ros'
+[20.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_launch' with type 'ros.ament_cmake' and name 'uav_launch'
+[20.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[20.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[20.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[20.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[20.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[21.501s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'common_msgs' in 'src/common_msgs'
+[21.501s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'libs' in 'src/libs'
+[21.501s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uav_launch' in 'src/uav_launch'
+[21.501s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mpc_node' in 'src/mpc_node'
+[21.501s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'simulator_node' in 'src/simulator_node'
+[22.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[22.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[22.817s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[22.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[23.679s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_args' from command line to 'None'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_target' from command line to 'None'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_clean_cache' from command line to 'True'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_clean_first' from command line to 'False'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_force_configure' from command line to 'False'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'ament_cmake_args' from command line to 'None'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'catkin_cmake_args' from command line to 'None'
+[23.680s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.681s] DEBUG:colcon.colcon_core.verb:Building package 'grampc-d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/UAV_ws/build/grampc-d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/UAV_ws/install/grampc-d', 'merge_install': False, 'path': '/home/ubuntu/UAV_ws/src/grampc-d', 'symlink_install': False, 'test_result_base': None}
+[24.009s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[24.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[24.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/UAV_ws/src/grampc-d' with build type 'ament_cmake'
+[24.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/UAV_ws/src/grampc-d'
+[24.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[24.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/UAV_ws/src/grampc-d -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/grampc-d
+[32.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/UAV_ws/src/grampc-d -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/grampc-d
+[32.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/grampc-d -- -j4 -l4
+[139.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/grampc-d -- -j4 -l4
+[140.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/grampc-d
+[140.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grampc-d)
+[140.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/grampc-d
+[141.170s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d' for CMake module files
+[141.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d' for CMake config files
+[141.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('grampc-d', 'cmake_prefix_path')
+[141.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.ps1'
+[141.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.dsv'
+[141.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.sh'
+[141.522s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib'
+[141.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/bin'
+[141.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib/pkgconfig/grampc-d.pc'
+[141.524s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib/python3.8/site-packages'
+[141.524s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/bin'
+[141.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.ps1'
+[141.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.dsv'
+[141.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.sh'
+[141.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.bash'
+[141.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.zsh'
+[141.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/UAV_ws/install/grampc-d/share/colcon-core/packages/grampc-d)
+[142.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grampc-d)
+[143.047s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d' for CMake module files
+[143.049s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d' for CMake config files
+[143.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('grampc-d', 'cmake_prefix_path')
+[143.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.ps1'
+[143.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.dsv'
+[143.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.sh'
+[143.397s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib'
+[143.397s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/bin'
+[143.397s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib/pkgconfig/grampc-d.pc'
+[143.398s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/lib/python3.8/site-packages'
+[143.399s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/UAV_ws/install/grampc-d/bin'
+[143.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.ps1'
+[143.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.dsv'
+[143.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.sh'
+[143.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.bash'
+[143.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/package.zsh'
+[143.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/UAV_ws/install/grampc-d/share/colcon-core/packages/grampc-d)
+[143.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[143.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[143.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[143.782s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[145.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[145.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[145.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[145.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[145.387s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[145.387s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[145.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/UAV_ws/install/local_setup.ps1'
+[145.733s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/UAV_ws/install/_local_setup_util_ps1.py'
+[145.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/UAV_ws/install/setup.ps1'
+[146.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/UAV_ws/install/local_setup.sh'
+[146.079s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/UAV_ws/install/_local_setup_util_sh.py'
+[146.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/UAV_ws/install/setup.sh'
+[146.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/UAV_ws/install/local_setup.bash'
+[146.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/UAV_ws/install/setup.bash'
+[146.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/UAV_ws/install/local_setup.zsh'
+[146.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/UAV_ws/install/setup.zsh'

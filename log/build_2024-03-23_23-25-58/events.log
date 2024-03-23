@@ -1,0 +1,668 @@
+[0.000000] (-) TimerEvent: {}
+[0.001032] (-) JobUnselected: {'identifier': 'grampc-d'}
+[0.001494] (-) JobUnselected: {'identifier': 'libs'}
+[0.002293] (-) JobUnselected: {'identifier': 'mpc_node'}
+[0.002928] (-) JobUnselected: {'identifier': 'simulator_node'}
+[0.003259] (-) JobUnselected: {'identifier': 'uav_launch'}
+[0.003506] (common_msgs) JobQueued: {'identifier': 'common_msgs', 'dependencies': OrderedDict()}
+[0.003869] (common_msgs) JobStarted: {'identifier': 'common_msgs'}
+[0.099927] (-) TimerEvent: {}
+[0.206644] (-) TimerEvent: {}
+[0.308776] (-) TimerEvent: {}
+[0.409488] (-) TimerEvent: {}
+[0.511003] (-) TimerEvent: {}
+[0.615482] (-) TimerEvent: {}
+[0.716269] (-) TimerEvent: {}
+[0.817601] (-) TimerEvent: {}
+[0.919099] (-) TimerEvent: {}
+[1.019836] (-) TimerEvent: {}
+[1.063617] (common_msgs) JobProgress: {'identifier': 'common_msgs', 'progress': 'cmake'}
+[1.064973] (common_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/UAV_ws/src/common_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/common_msgs'], 'cwd': '/home/ubuntu/UAV_ws/build/common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 38952 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 38952 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.120128] (-) TimerEvent: {}
+[1.221226] (-) TimerEvent: {}
+[1.305424] (common_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.321307] (-) TimerEvent: {}
+[1.421983] (-) TimerEvent: {}
+[1.514852] (common_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.522143] (-) TimerEvent: {}
+[1.533439] (common_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.622360] (-) TimerEvent: {}
+[1.723240] (-) TimerEvent: {}
+[1.807540] (common_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.810232] (common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.823387] (-) TimerEvent: {}
+[1.924112] (-) TimerEvent: {}
+[2.024825] (-) TimerEvent: {}
+[2.087945] (common_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.121990] (common_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.123064] (common_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.124937] (-) TimerEvent: {}
+[2.131478] (common_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.225237] (-) TimerEvent: {}
+[2.326013] (-) TimerEvent: {}
+[2.426790] (-) TimerEvent: {}
+[2.433650] (common_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.436938] (common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.527031] (-) TimerEvent: {}
+[2.627888] (-) TimerEvent: {}
+[2.728653] (-) TimerEvent: {}
+[2.740047] (common_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.776707] (common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.778380] (common_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.797188] (common_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.828930] (-) TimerEvent: {}
+[2.909529] (common_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.910199] (common_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.929086] (-) TimerEvent: {}
+[3.029858] (-) TimerEvent: {}
+[3.130479] (-) TimerEvent: {}
+[3.231042] (-) TimerEvent: {}
+[3.331630] (-) TimerEvent: {}
+[3.432217] (-) TimerEvent: {}
+[3.532931] (-) TimerEvent: {}
+[3.634053] (-) TimerEvent: {}
+[3.734721] (-) TimerEvent: {}
+[3.745874] (common_msgs) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.834881] (-) TimerEvent: {}
+[3.935599] (-) TimerEvent: {}
+[4.015376] (common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.035753] (-) TimerEvent: {}
+[4.061923] (common_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.135912] (-) TimerEvent: {}
+[4.236533] (-) TimerEvent: {}
+[4.337210] (-) TimerEvent: {}
+[4.437982] (-) TimerEvent: {}
+[4.538698] (-) TimerEvent: {}
+[4.571021] (common_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.638846] (-) TimerEvent: {}
+[4.739539] (-) TimerEvent: {}
+[4.789403] (common_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.839689] (-) TimerEvent: {}
+[4.940344] (-) TimerEvent: {}
+[5.040990] (-) TimerEvent: {}
+[5.141652] (-) TimerEvent: {}
+[5.242278] (-) TimerEvent: {}
+[5.300014] (common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.342424] (-) TimerEvent: {}
+[5.443065] (-) TimerEvent: {}
+[5.541867] (common_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.543175] (-) TimerEvent: {}
+[5.547121] (common_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.550335] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.643408] (-) TimerEvent: {}
+[5.744316] (-) TimerEvent: {}
+[5.842310] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.843332] (common_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.844435] (-) TimerEvent: {}
+[5.945219] (-) TimerEvent: {}
+[6.045944] (-) TimerEvent: {}
+[6.140266] (common_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.140988] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.146102] (-) TimerEvent: {}
+[6.246921] (-) TimerEvent: {}
+[6.347926] (-) TimerEvent: {}
+[6.384171] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.384886] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.448368] (-) TimerEvent: {}
+[6.549258] (-) TimerEvent: {}
+[6.650000] (-) TimerEvent: {}
+[6.670120] (common_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.674792] (common_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.750173] (-) TimerEvent: {}
+[6.850839] (-) TimerEvent: {}
+[6.951477] (-) TimerEvent: {}
+[7.052126] (-) TimerEvent: {}
+[7.152782] (-) TimerEvent: {}
+[7.253435] (-) TimerEvent: {}
+[7.267563] (common_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[7.353561] (-) TimerEvent: {}
+[7.405717] (common_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.453699] (-) TimerEvent: {}
+[7.554350] (-) TimerEvent: {}
+[7.655142] (-) TimerEvent: {}
+[7.756044] (-) TimerEvent: {}
+[7.856813] (-) TimerEvent: {}
+[7.916523] (common_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.956949] (-) TimerEvent: {}
+[8.057633] (-) TimerEvent: {}
+[8.158307] (-) TimerEvent: {}
+[8.258931] (-) TimerEvent: {}
+[8.359575] (-) TimerEvent: {}
+[8.460228] (-) TimerEvent: {}
+[8.560904] (-) TimerEvent: {}
+[8.661603] (-) TimerEvent: {}
+[8.692340] (common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.724874] (common_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.761722] (-) TimerEvent: {}
+[8.821165] (common_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.835952] (common_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.861860] (-) TimerEvent: {}
+[8.939219] (common_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.939984] (common_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.940379] (common_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.940734] (common_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[8.962032] (-) TimerEvent: {}
+[9.030552] (common_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.062165] (-) TimerEvent: {}
+[9.162789] (-) TimerEvent: {}
+[9.263462] (-) TimerEvent: {}
+[9.364225] (-) TimerEvent: {}
+[9.465299] (-) TimerEvent: {}
+[9.556890] (common_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.565422] (-) TimerEvent: {}
+[9.666032] (-) TimerEvent: {}
+[9.680043] (common_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.685394] (common_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.718013] (common_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.766192] (-) TimerEvent: {}
+[9.866834] (-) TimerEvent: {}
+[9.872982] (common_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[9.887016] (common_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/UAV_ws/build/common_msgs\n'}
+[9.923186] (common_msgs) CommandEnded: {'returncode': 0}
+[9.925142] (common_msgs) JobProgress: {'identifier': 'common_msgs', 'progress': 'build'}
+[9.927603] (common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/UAV_ws/build/common_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/UAV_ws/build/common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 38952 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 38952 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.967067] (-) TimerEvent: {}
+[10.067969] (-) TimerEvent: {}
+[10.101636] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__cpp\x1b[0m\n'}
+[10.102520] (common_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.143306] (common_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.168221] (-) TimerEvent: {}
+[10.269432] (-) TimerEvent: {}
+[10.370269] (-) TimerEvent: {}
+[10.471001] (-) TimerEvent: {}
+[10.571733] (-) TimerEvent: {}
+[10.672420] (-) TimerEvent: {}
+[10.773078] (-) TimerEvent: {}
+[10.873736] (-) TimerEvent: {}
+[10.974377] (-) TimerEvent: {}
+[11.075017] (-) TimerEvent: {}
+[11.175658] (-) TimerEvent: {}
+[11.276295] (-) TimerEvent: {}
+[11.377099] (-) TimerEvent: {}
+[11.478458] (-) TimerEvent: {}
+[11.579745] (-) TimerEvent: {}
+[11.681076] (-) TimerEvent: {}
+[11.770758] (common_msgs) StdoutLine: {'line': b'[  3%] Built target common_msgs__cpp\n'}
+[11.781351] (-) TimerEvent: {}
+[11.820506] (common_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.835710] (common_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.854861] (common_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.859676] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_generator_c\x1b[0m\n'}
+[11.881519] (-) TimerEvent: {}
+[11.932365] (common_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_msgs/msg/detail/x_traj__functions.c.o\x1b[0m\n'}
+[11.981764] (-) TimerEvent: {}
+[12.082914] (-) TimerEvent: {}
+[12.184151] (-) TimerEvent: {}
+[12.203907] (common_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_msgs/msg/detail/u_traj__functions.c.o\x1b[0m\n'}
+[12.284370] (-) TimerEvent: {}
+[12.385337] (-) TimerEvent: {}
+[12.446600] (common_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_msgs/msg/detail/state__functions.c.o\x1b[0m\n'}
+[12.485519] (-) TimerEvent: {}
+[12.586293] (-) TimerEvent: {}
+[12.671741] (common_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_msgs/msg/detail/input__functions.c.o\x1b[0m\n'}
+[12.686521] (-) TimerEvent: {}
+[12.787542] (-) TimerEvent: {}
+[12.882139] (common_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libcommon_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[12.887766] (-) TimerEvent: {}
+[12.988520] (-) TimerEvent: {}
+[13.073590] (common_msgs) StdoutLine: {'line': b'[ 18%] Built target common_msgs__rosidl_generator_c\n'}
+[13.088729] (-) TimerEvent: {}
+[13.130130] (common_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.189035] (-) TimerEvent: {}
+[13.222545] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[13.287490] (common_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_msgs/msg/x_traj__type_support.cpp.o\x1b[0m\n'}
+[13.289276] (-) TimerEvent: {}
+[13.393831] (-) TimerEvent: {}
+[13.495576] (-) TimerEvent: {}
+[13.568939] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.595764] (-) TimerEvent: {}
+[13.637499] (common_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_msgs/msg/detail/x_traj__type_support.cpp.o\x1b[0m\n'}
+[13.692143] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[13.695972] (-) TimerEvent: {}
+[13.768860] (common_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_msgs/msg/detail/dds_fastrtps/x_traj__type_support.cpp.o\x1b[0m\n'}
+[13.796220] (-) TimerEvent: {}
+[13.897207] (-) TimerEvent: {}
+[13.998131] (-) TimerEvent: {}
+[14.099057] (-) TimerEvent: {}
+[14.199991] (-) TimerEvent: {}
+[14.300918] (-) TimerEvent: {}
+[14.401922] (-) TimerEvent: {}
+[14.502795] (-) TimerEvent: {}
+[14.603860] (-) TimerEvent: {}
+[14.705506] (-) TimerEvent: {}
+[14.806630] (-) TimerEvent: {}
+[14.907783] (-) TimerEvent: {}
+[14.939094] (common_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_msgs/msg/u_traj__type_support.cpp.o\x1b[0m\n'}
+[14.989814] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.008034] (-) TimerEvent: {}
+[15.059337] (common_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_msgs/msg/detail/x_traj__type_support.c.o\x1b[0m\n'}
+[15.108262] (-) TimerEvent: {}
+[15.209958] (-) TimerEvent: {}
+[15.236084] (common_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_msgs/msg/detail/u_traj__type_support.c.o\x1b[0m\n'}
+[15.310263] (-) TimerEvent: {}
+[15.412116] (-) TimerEvent: {}
+[15.429388] (common_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_msgs/msg/detail/state__type_support.c.o\x1b[0m\n'}
+[15.456455] (common_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_msgs/msg/detail/u_traj__type_support.cpp.o\x1b[0m\n'}
+[15.512383] (-) TimerEvent: {}
+[15.600351] (common_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_msgs/msg/detail/input__type_support.c.o\x1b[0m\n'}
+[15.612606] (-) TimerEvent: {}
+[15.714351] (-) TimerEvent: {}
+[15.777947] (common_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libcommon_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.814615] (-) TimerEvent: {}
+[15.916672] (-) TimerEvent: {}
+[15.935460] (common_msgs) StdoutLine: {'line': b'[ 38%] Built target common_msgs__rosidl_typesupport_introspection_c\n'}
+[15.983067] (common_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_msgs/msg/detail/dds_fastrtps/u_traj__type_support.cpp.o\x1b[0m\n'}
+[16.016926] (-) TimerEvent: {}
+[16.118763] (-) TimerEvent: {}
+[16.220704] (-) TimerEvent: {}
+[16.322558] (-) TimerEvent: {}
+[16.396979] (common_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_msgs/msg/state__type_support.cpp.o\x1b[0m\n'}
+[16.422812] (-) TimerEvent: {}
+[16.523965] (-) TimerEvent: {}
+[16.571283] (common_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_msgs/msg/detail/dds_fastrtps/state__type_support.cpp.o\x1b[0m\n'}
+[16.624216] (-) TimerEvent: {}
+[16.725279] (-) TimerEvent: {}
+[16.826357] (-) TimerEvent: {}
+[16.927359] (-) TimerEvent: {}
+[17.028387] (-) TimerEvent: {}
+[17.129475] (-) TimerEvent: {}
+[17.230586] (-) TimerEvent: {}
+[17.259565] (common_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_msgs/msg/detail/state__type_support.cpp.o\x1b[0m\n'}
+[17.330870] (-) TimerEvent: {}
+[17.431957] (-) TimerEvent: {}
+[17.533299] (-) TimerEvent: {}
+[17.634391] (-) TimerEvent: {}
+[17.735362] (-) TimerEvent: {}
+[17.836366] (-) TimerEvent: {}
+[17.937463] (-) TimerEvent: {}
+[17.950863] (common_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_msgs/msg/input__type_support.cpp.o\x1b[0m\n'}
+[18.037612] (-) TimerEvent: {}
+[18.138661] (-) TimerEvent: {}
+[18.240305] (-) TimerEvent: {}
+[18.341476] (-) TimerEvent: {}
+[18.442534] (-) TimerEvent: {}
+[18.543638] (-) TimerEvent: {}
+[18.598093] (common_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_msgs/msg/detail/input__type_support.cpp.o\x1b[0m\n'}
+[18.643893] (-) TimerEvent: {}
+[18.744983] (-) TimerEvent: {}
+[18.846127] (-) TimerEvent: {}
+[18.890409] (common_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.946354] (-) TimerEvent: {}
+[18.979948] (common_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_msgs/msg/detail/dds_fastrtps/input__type_support.cpp.o\x1b[0m\n'}
+[19.046598] (-) TimerEvent: {}
+[19.147575] (-) TimerEvent: {}
+[19.248464] (-) TimerEvent: {}
+[19.349402] (-) TimerEvent: {}
+[19.450327] (-) TimerEvent: {}
+[19.551238] (-) TimerEvent: {}
+[19.580408] (common_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.651641] (-) TimerEvent: {}
+[19.752678] (-) TimerEvent: {}
+[19.758200] (common_msgs) StdoutLine: {'line': b'[ 54%] Built target common_msgs__rosidl_typesupport_cpp\n'}
+[19.852901] (-) TimerEvent: {}
+[19.954641] (-) TimerEvent: {}
+[20.056225] (-) TimerEvent: {}
+[20.157951] (-) TimerEvent: {}
+[20.228061] (common_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.247872] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[20.258148] (-) TimerEvent: {}
+[20.306325] (common_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_msgs/msg/x_traj__type_support.cpp.o\x1b[0m\n'}
+[20.311159] (common_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_msgs/msg/u_traj__type_support.cpp.o\x1b[0m\n'}
+[20.358536] (-) TimerEvent: {}
+[20.460166] (-) TimerEvent: {}
+[20.489817] (common_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_msgs/msg/state__type_support.cpp.o\x1b[0m\n'}
+[20.503826] (common_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_msgs/msg/input__type_support.cpp.o\x1b[0m\n'}
+[20.560412] (-) TimerEvent: {}
+[20.575353] (common_msgs) StdoutLine: {'line': b'[ 63%] Built target common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[20.653994] (common_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.660615] (-) TimerEvent: {}
+[20.761448] (-) TimerEvent: {}
+[20.800381] (common_msgs) StdoutLine: {'line': b'[ 65%] Built target common_msgs__rosidl_typesupport_c\n'}
+[20.861626] (-) TimerEvent: {}
+[20.962348] (-) TimerEvent: {}
+[21.063049] (-) TimerEvent: {}
+[21.163772] (-) TimerEvent: {}
+[21.178924] (common_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.263992] (-) TimerEvent: {}
+[21.364843] (-) TimerEvent: {}
+[21.465687] (-) TimerEvent: {}
+[21.490349] (common_msgs) StdoutLine: {'line': b'[ 67%] Built target common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[21.531632] (common_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.565856] (-) TimerEvent: {}
+[21.666557] (-) TimerEvent: {}
+[21.767223] (-) TimerEvent: {}
+[21.867839] (-) TimerEvent: {}
+[21.968513] (-) TimerEvent: {}
+[22.069142] (-) TimerEvent: {}
+[22.169767] (-) TimerEvent: {}
+[22.270411] (-) TimerEvent: {}
+[22.370963] (-) TimerEvent: {}
+[22.471544] (-) TimerEvent: {}
+[22.572198] (-) TimerEvent: {}
+[22.673023] (-) TimerEvent: {}
+[22.716298] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.773373] (-) TimerEvent: {}
+[22.788441] (common_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_msgs/msg/detail/u_traj__type_support_c.cpp.o\x1b[0m\n'}
+[22.792577] (common_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_msgs/msg/detail/state__type_support_c.cpp.o\x1b[0m\n'}
+[22.804178] (common_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_msgs/msg/detail/x_traj__type_support_c.cpp.o\x1b[0m\n'}
+[22.807188] (common_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_msgs/msg/detail/input__type_support_c.cpp.o\x1b[0m\n'}
+[22.873579] (-) TimerEvent: {}
+[22.974514] (-) TimerEvent: {}
+[23.075443] (-) TimerEvent: {}
+[23.176351] (-) TimerEvent: {}
+[23.277321] (-) TimerEvent: {}
+[23.378364] (-) TimerEvent: {}
+[23.479696] (-) TimerEvent: {}
+[23.580639] (-) TimerEvent: {}
+[23.681610] (-) TimerEvent: {}
+[23.782854] (-) TimerEvent: {}
+[23.883804] (-) TimerEvent: {}
+[23.984973] (-) TimerEvent: {}
+[24.086017] (-) TimerEvent: {}
+[24.187293] (-) TimerEvent: {}
+[24.288504] (-) TimerEvent: {}
+[24.389725] (-) TimerEvent: {}
+[24.490659] (-) TimerEvent: {}
+[24.591863] (-) TimerEvent: {}
+[24.693258] (-) TimerEvent: {}
+[24.706029] (common_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcommon_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.793502] (-) TimerEvent: {}
+[24.894367] (-) TimerEvent: {}
+[24.995220] (-) TimerEvent: {}
+[25.033250] (common_msgs) StdoutLine: {'line': b'[ 78%] Built target common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[25.072143] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs\x1b[0m\n'}
+[25.095504] (-) TimerEvent: {}
+[25.112625] (common_msgs) StdoutLine: {'line': b'[ 78%] Built target common_msgs\n'}
+[25.155071] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__py\x1b[0m\n'}
+[25.195700] (-) TimerEvent: {}
+[25.196394] (common_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.295856] (-) TimerEvent: {}
+[25.396518] (-) TimerEvent: {}
+[25.497236] (-) TimerEvent: {}
+[25.597926] (-) TimerEvent: {}
+[25.698590] (-) TimerEvent: {}
+[25.799401] (-) TimerEvent: {}
+[25.900080] (-) TimerEvent: {}
+[26.000785] (-) TimerEvent: {}
+[26.101405] (-) TimerEvent: {}
+[26.201990] (-) TimerEvent: {}
+[26.302598] (-) TimerEvent: {}
+[26.403202] (-) TimerEvent: {}
+[26.503833] (-) TimerEvent: {}
+[26.604422] (-) TimerEvent: {}
+[26.705008] (-) TimerEvent: {}
+[26.805606] (-) TimerEvent: {}
+[26.906179] (-) TimerEvent: {}
+[27.006783] (-) TimerEvent: {}
+[27.107335] (-) TimerEvent: {}
+[27.208085] (-) TimerEvent: {}
+[27.309087] (-) TimerEvent: {}
+[27.409990] (-) TimerEvent: {}
+[27.449526] (common_msgs) StdoutLine: {'line': b'[ 80%] Built target common_msgs__py\n'}
+[27.490358] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__python\x1b[0m\n'}
+[27.510131] (-) TimerEvent: {}
+[27.599839] (common_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/common_msgs__python.dir/rosidl_generator_py/common_msgs/msg/_x_traj_s.c.o\x1b[0m\n'}
+[27.604573] (common_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/common_msgs__python.dir/rosidl_generator_py/common_msgs/msg/_state_s.c.o\x1b[0m\n'}
+[27.608539] (common_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/common_msgs__python.dir/rosidl_generator_py/common_msgs/msg/_input_s.c.o\x1b[0m\n'}
+[27.610390] (-) TimerEvent: {}
+[27.615227] (common_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/common_msgs__python.dir/rosidl_generator_py/common_msgs/msg/_u_traj_s.c.o\x1b[0m\n'}
+[27.710601] (-) TimerEvent: {}
+[27.811561] (-) TimerEvent: {}
+[27.912826] (-) TimerEvent: {}
+[28.015403] (-) TimerEvent: {}
+[28.086070] (common_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/common_msgs/libcommon_msgs__python.so\x1b[0m\n'}
+[28.115573] (-) TimerEvent: {}
+[28.216332] (-) TimerEvent: {}
+[28.249771] (common_msgs) StdoutLine: {'line': b'[ 89%] Built target common_msgs__python\n'}
+[28.291431] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[28.294357] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[28.294994] (common_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[28.316498] (-) TimerEvent: {}
+[28.377810] (common_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.387471] (common_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.405464] (common_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/common_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/common_msgs/_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.416912] (-) TimerEvent: {}
+[28.518817] (-) TimerEvent: {}
+[28.620557] (-) TimerEvent: {}
+[28.722880] (-) TimerEvent: {}
+[28.789727] (common_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.801597] (common_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.823113] (-) TimerEvent: {}
+[28.840319] (common_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.923525] (-) TimerEvent: {}
+[28.968271] (common_msgs) StdoutLine: {'line': b'[100%] Built target common_msgs__rosidl_typesupport_c__pyext\n'}
+[28.990022] (common_msgs) StdoutLine: {'line': b'[100%] Built target common_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[29.023727] (-) TimerEvent: {}
+[29.116052] (common_msgs) StdoutLine: {'line': b'[100%] Built target common_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.123898] (-) TimerEvent: {}
+[29.157041] (common_msgs) CommandEnded: {'returncode': 0}
+[29.224158] (-) TimerEvent: {}
+[29.325077] (-) TimerEvent: {}
+[29.425931] (-) TimerEvent: {}
+[29.526609] (-) TimerEvent: {}
+[29.627313] (-) TimerEvent: {}
+[29.691412] (common_msgs) JobProgress: {'identifier': 'common_msgs', 'progress': 'install'}
+[29.727726] (-) TimerEvent: {}
+[29.730758] (common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/UAV_ws/build/common_msgs'], 'cwd': '/home/ubuntu/UAV_ws/build/common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 38952 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/common_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 38952 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[29.770777] (common_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.771464] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/ament_index/resource_index/rosidl_interfaces/common_msgs\n'}
+[29.772263] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.772719] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.773142] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/state.h\n'}
+[29.773813] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/u_traj.h\n'}
+[29.774470] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.775035] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__functions.c\n'}
+[29.775825] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__struct.h\n'}
+[29.776517] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__struct.h\n'}
+[29.777222] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__type_support.h\n'}
+[29.777938] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__functions.c\n'}
+[29.778681] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__functions.h\n'}
+[29.779423] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__type_support.h\n'}
+[29.780116] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__functions.c\n'}
+[29.780851] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__functions.c\n'}
+[29.781765] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__functions.h\n'}
+[29.782497] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__functions.h\n'}
+[29.783226] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__functions.h\n'}
+[29.783964] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__struct.h\n'}
+[29.784690] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__type_support.h\n'}
+[29.785440] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__type_support.h\n'}
+[29.786156] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__struct.h\n'}
+[29.786863] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.787605] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/x_traj.h\n'}
+[29.788248] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/input.h\n'}
+[29.789244] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/library_path.sh\n'}
+[29.790298] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/library_path.dsv\n'}
+[29.791979] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_c.so\n'}
+[29.794105] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_generator_c.so" to ""\n'}
+[29.794609] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.795031] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.795350] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.795754] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.796143] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__rosidl_typesupport_fastrtps_c.h\n'}
+[29.796991] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__rosidl_typesupport_fastrtps_c.h\n'}
+[29.797864] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__rosidl_typesupport_fastrtps_c.h\n'}
+[29.798645] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h\n'}
+[29.800444] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[29.802617] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.803115] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.803539] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.803897] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.804305] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.804699] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.805555] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/dds_fastrtps\n'}
+[29.806096] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.806956] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.807740] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.809585] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.811960] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.812532] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.812913] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.813314] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.813681] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__rosidl_typesupport_introspection_c.h\n'}
+[29.814099] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h\n'}
+[29.814920] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__type_support.c\n'}
+[29.815676] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__rosidl_typesupport_introspection_c.h\n'}
+[29.816482] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__rosidl_typesupport_introspection_c.h\n'}
+[29.817330] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__type_support.c\n'}
+[29.818055] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__type_support.c\n'}
+[29.818822] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__type_support.c\n'}
+[29.819587] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.821415] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_c.so\n'}
+[29.823390] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.824337] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_c.so\n'}
+[29.826210] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_c.so" to ""\n'}
+[29.826706] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.827123] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.827439] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/u_traj.hpp\n'}
+[29.827723] (-) TimerEvent: {}
+[29.828303] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/state.hpp\n'}
+[29.828843] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.829283] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__type_support.hpp\n'}
+[29.829953] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__traits.hpp\n'}
+[29.830678] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__type_support.hpp\n'}
+[29.831410] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__traits.hpp\n'}
+[29.832108] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__traits.hpp\n'}
+[29.832812] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__struct.hpp\n'}
+[29.833613] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__type_support.hpp\n'}
+[29.834364] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__struct.hpp\n'}
+[29.835067] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__builder.hpp\n'}
+[29.835778] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__builder.hpp\n'}
+[29.836704] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__builder.hpp\n'}
+[29.837457] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__builder.hpp\n'}
+[29.838217] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__type_support.hpp\n'}
+[29.838951] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__struct.hpp\n'}
+[29.839690] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__traits.hpp\n'}
+[29.840385] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__struct.hpp\n'}
+[29.841134] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/x_traj.hpp\n'}
+[29.841807] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/input.hpp\n'}
+[29.842483] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.843477] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs\n'}
+[29.843955] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg\n'}
+[29.844261] (common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail\n'}
+[29.844632] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__type_support.cpp\n'}
+[29.845194] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.846053] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__type_support.cpp\n'}
+[29.846849] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/x_traj__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.847720] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.848529] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.849396] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/input__type_support.cpp\n'}
+[29.850141] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/include/common_msgs/msg/detail/u_traj__type_support.cpp\n'}
+[29.851904] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[29.854424] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.855385] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_cpp.so\n'}
+[29.857359] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[29.857902] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/pythonpath.sh\n'}
+[29.858807] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/pythonpath.dsv\n'}
+[29.860115] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/__init__.py\n'}
+[29.927890] (-) TimerEvent: {}
+[29.979488] (common_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/__init__.py'...\n"}
+[30.000861] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg\n'}
+[30.001497] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_state_s.c\n'}
+[30.002233] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_x_traj_s.c\n'}
+[30.003101] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_state.py\n'}
+[30.003959] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_x_traj.py\n'}
+[30.004706] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_input_s.c\n'}
+[30.005467] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_u_traj_s.c\n'}
+[30.006184] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_u_traj.py\n'}
+[30.006907] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/__init__.py\n'}
+[30.007834] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/msg/_input.py\n'}
+[30.009293] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.011656] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.012444] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.014913] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.015615] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[30.017932] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages/common_msgs/common_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[30.018469] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__python.so\n'}
+[30.020392] (common_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/common_msgs/lib/libcommon_msgs__python.so" to ""\n'}
+[30.020866] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/XTraj.idl\n'}
+[30.021833] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/UTraj.idl\n'}
+[30.022757] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/State.idl\n'}
+[30.023680] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/Input.idl\n'}
+[30.024613] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/XTraj.msg\n'}
+[30.025488] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/UTraj.msg\n'}
+[30.026292] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/State.msg\n'}
+[30.027105] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/msg/Input.msg\n'}
+[30.028023] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/ament_index/resource_index/package_run_dependencies/common_msgs\n'}
+[30.028398] (-) TimerEvent: {}
+[30.029361] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/ament_index/resource_index/parent_prefix_path/common_msgs\n'}
+[30.030458] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/ament_prefix_path.sh\n'}
+[30.031477] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/ament_prefix_path.dsv\n'}
+[30.032478] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/path.sh\n'}
+[30.033778] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/environment/path.dsv\n'}
+[30.034748] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/local_setup.bash\n'}
+[30.035711] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/local_setup.sh\n'}
+[30.036651] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/local_setup.zsh\n'}
+[30.037651] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/local_setup.dsv\n'}
+[30.038619] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/package.dsv\n'}
+[30.039561] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/ament_index/resource_index/packages/common_msgs\n'}
+[30.040726] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_generator_cExport.cmake\n'}
+[30.041851] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.043613] (common_msgs) StdoutLine: {'line': b'-- Old export file "/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport-debug.cmake].\n'}
+[30.044195] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.045370] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.047036] (common_msgs) StdoutLine: {'line': b'-- Old export file "/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport-debug.cmake].\n'}
+[30.047546] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport.cmake\n'}
+[30.048659] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.049927] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_generator_cppExport.cmake\n'}
+[30.051574] (common_msgs) StdoutLine: {'line': b'-- Old export file "/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake].\n'}
+[30.052067] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.053319] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.054937] (common_msgs) StdoutLine: {'line': b'-- Old export file "/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport-debug.cmake].\n'}
+[30.055435] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[30.056532] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.057590] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[30.058636] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.059709] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.060794] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.061896] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.063032] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.064132] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.065306] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgsConfig.cmake\n'}
+[30.066115] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake/common_msgsConfig-version.cmake\n'}
+[30.067063] (common_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/package.xml\n'}
+[30.073480] (common_msgs) CommandEnded: {'returncode': 0}
+[30.129047] (-) TimerEvent: {}
+[30.230871] (-) TimerEvent: {}
+[30.331764] (-) TimerEvent: {}
+[30.432682] (-) TimerEvent: {}
+[30.537713] (-) TimerEvent: {}
+[30.640383] (-) TimerEvent: {}
+[30.741709] (-) TimerEvent: {}
+[30.842424] (-) TimerEvent: {}
+[30.943688] (-) TimerEvent: {}
+[31.045091] (-) TimerEvent: {}
+[31.145948] (-) TimerEvent: {}
+[31.246913] (-) TimerEvent: {}
+[31.348169] (-) TimerEvent: {}
+[31.448879] (-) TimerEvent: {}
+[31.549742] (-) TimerEvent: {}
+[31.651716] (-) TimerEvent: {}
+[31.753281] (-) TimerEvent: {}
+[31.854105] (-) TimerEvent: {}
+[31.955094] (-) TimerEvent: {}
+[32.055897] (-) TimerEvent: {}
+[32.156587] (-) TimerEvent: {}
+[32.257861] (-) TimerEvent: {}
+[32.358950] (-) TimerEvent: {}
+[32.459770] (-) TimerEvent: {}
+[32.568887] (-) TimerEvent: {}
+[32.669824] (-) TimerEvent: {}
+[32.771368] (-) TimerEvent: {}
+[32.874350] (-) TimerEvent: {}
+[32.975513] (-) TimerEvent: {}
+[33.076235] (-) TimerEvent: {}
+[33.177744] (-) TimerEvent: {}
+[33.279450] (-) TimerEvent: {}
+[33.383045] (-) TimerEvent: {}
+[33.483863] (-) TimerEvent: {}
+[33.588464] (-) TimerEvent: {}
+[33.689647] (-) TimerEvent: {}
+[33.790376] (-) TimerEvent: {}
+[33.891665] (-) TimerEvent: {}
+[33.992689] (-) TimerEvent: {}
+[34.093478] (-) TimerEvent: {}
+[34.194366] (-) TimerEvent: {}
+[34.296484] (-) TimerEvent: {}
+[34.401050] (-) TimerEvent: {}
+[34.468364] (common_msgs) JobEnded: {'identifier': 'common_msgs', 'rc': 0}
+[34.471412] (-) EventReactorShutdown: {}

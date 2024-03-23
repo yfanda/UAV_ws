@@ -15,6 +15,7 @@ find_package(libs REQUIRED)
 
 #########################################################################################
 # compile all source files into library
+set(CMAKE_CXX_STANDARD 17)
 add_library(grampcd
     src/agent/agent.cpp
     src/agent/neighbor.cpp
@@ -59,8 +60,8 @@ add_library(grampcd
     src/UAV_agent_model.cpp
  )
 
-set(ASIO_INCLUDE_DIR "/home/evan/UAV_ws/src/libs/libs/asio/src/asio/asio/include")
-set(CEREAL_INCLUDE_DIR "/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal/include")
+set(ASIO_INCLUDE_DIR "/home/ubuntu/UAV_ws/src/libs/libs/asio/src/asio/asio/include")
+set(CEREAL_INCLUDE_DIR "/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal/include")
 
 target_include_directories(grampcd PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

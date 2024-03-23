@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- ASIO include directory: /home/ubuntu/UAV_ws/src/libs/libs/asio/src/asio/asio/include
+-- CEREAL include directory: /home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/UAV_ws/build/libs
+[35m[1mScanning dependencies of target asio[0m
+[35m[1mScanning dependencies of target cereal[0m
+[35m[1mScanning dependencies of target sha[0m
+[35m[1mScanning dependencies of target grampc[0m
+[ 19%] Built target cereal
+[ 38%] Built target asio
+[ 57%] Built target sha
+[100%] Built target grampc
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/library_path.sh
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/library_path.dsv
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/eulermod2.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/f2cmod.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/rodas.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/simpson.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/probfct.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/problem_description.hpp
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_init.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_util.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_macro.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_mess.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/rodas_decsol_f2c.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/ruku45.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/euler1.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_setparam.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc.hpp
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_run.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/trapezodial.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_setopt.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_fixedsize.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc_alloc.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/grampc.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/include/libs/heun2.h
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/lib/libgrampc.a
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/package_run_dependencies/libs
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/parent_prefix_path/libs
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/path.sh
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/environment/path.dsv
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.bash
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.sh
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.zsh
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/local_setup.dsv
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/package.dsv
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/ament_index/resource_index/packages/libs
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport.cmake
+-- Installing: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/grampcExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/libsConfig.cmake
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/cmake/libsConfig-version.cmake
+-- Up-to-date: /home/ubuntu/UAV_ws/install/libs/share/libs/package.xml

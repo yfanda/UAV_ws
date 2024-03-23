@@ -1,0 +1,911 @@
+[0.000000] (-) TimerEvent: {}
+[0.000908] (-) JobUnselected: {'identifier': 'common_msgs'}
+[0.001190] (-) JobUnselected: {'identifier': 'libs'}
+[0.001821] (-) JobUnselected: {'identifier': 'mpc_node'}
+[0.002318] (-) JobUnselected: {'identifier': 'simulator_node'}
+[0.002549] (-) JobUnselected: {'identifier': 'uav_launch'}
+[0.002736] (grampc-d) JobQueued: {'identifier': 'grampc-d', 'dependencies': OrderedDict([('libs', '/home/ubuntu/UAV_ws/install/libs')])}
+[0.002980] (grampc-d) JobStarted: {'identifier': 'grampc-d'}
+[0.099331] (-) TimerEvent: {}
+[0.204039] (-) TimerEvent: {}
+[0.304974] (-) TimerEvent: {}
+[0.406284] (-) TimerEvent: {}
+[0.507237] (-) TimerEvent: {}
+[0.612427] (-) TimerEvent: {}
+[0.713366] (-) TimerEvent: {}
+[0.814400] (-) TimerEvent: {}
+[0.921252] (-) TimerEvent: {}
+[1.022096] (-) TimerEvent: {}
+[1.053211] (grampc-d) JobProgress: {'identifier': 'grampc-d', 'progress': 'cmake'}
+[1.054739] (grampc-d) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/UAV_ws/src/grampc-d', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/grampc-d'], 'cwd': '/home/ubuntu/UAV_ws/build/grampc-d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 38952 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/grampc-d'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 38952 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy')]), 'shell': False}
+[1.122385] (-) TimerEvent: {}
+[1.223344] (-) TimerEvent: {}
+[1.299048] (grampc-d) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.323526] (-) TimerEvent: {}
+[1.424384] (-) TimerEvent: {}
+[1.511759] (grampc-d) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.524526] (-) TimerEvent: {}
+[1.528863] (grampc-d) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.624704] (-) TimerEvent: {}
+[1.725429] (-) TimerEvent: {}
+[1.799416] (grampc-d) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.802014] (grampc-d) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.825666] (-) TimerEvent: {}
+[1.926651] (-) TimerEvent: {}
+[2.027829] (-) TimerEvent: {}
+[2.074121] (grampc-d) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.108853] (grampc-d) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.109865] (grampc-d) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.118088] (grampc-d) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.127966] (-) TimerEvent: {}
+[2.228627] (-) TimerEvent: {}
+[2.329342] (-) TimerEvent: {}
+[2.425021] (grampc-d) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.428382] (grampc-d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.429444] (-) TimerEvent: {}
+[2.530049] (-) TimerEvent: {}
+[2.630792] (-) TimerEvent: {}
+[2.731621] (-) TimerEvent: {}
+[2.740052] (grampc-d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.775658] (grampc-d) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.777246] (grampc-d) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.796651] (grampc-d) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.831867] (-) TimerEvent: {}
+[2.912124] (grampc-d) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.912782] (grampc-d) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.932001] (-) TimerEvent: {}
+[3.032770] (-) TimerEvent: {}
+[3.133389] (-) TimerEvent: {}
+[3.233968] (-) TimerEvent: {}
+[3.334612] (-) TimerEvent: {}
+[3.435214] (-) TimerEvent: {}
+[3.535878] (-) TimerEvent: {}
+[3.636906] (-) TimerEvent: {}
+[3.737601] (-) TimerEvent: {}
+[3.753306] (grampc-d) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.837763] (-) TimerEvent: {}
+[3.938423] (-) TimerEvent: {}
+[4.028651] (grampc-d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.038533] (-) TimerEvent: {}
+[4.077186] (grampc-d) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.138715] (-) TimerEvent: {}
+[4.239349] (-) TimerEvent: {}
+[4.339995] (-) TimerEvent: {}
+[4.440739] (-) TimerEvent: {}
+[4.541555] (-) TimerEvent: {}
+[4.596469] (grampc-d) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.641712] (-) TimerEvent: {}
+[4.742364] (-) TimerEvent: {}
+[4.816358] (grampc-d) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.842538] (-) TimerEvent: {}
+[4.943274] (-) TimerEvent: {}
+[5.043931] (-) TimerEvent: {}
+[5.144587] (-) TimerEvent: {}
+[5.245302] (-) TimerEvent: {}
+[5.331339] (grampc-d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.345446] (-) TimerEvent: {}
+[5.446082] (-) TimerEvent: {}
+[5.546751] (-) TimerEvent: {}
+[5.579028] (grampc-d) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.584244] (grampc-d) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.587473] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.646929] (-) TimerEvent: {}
+[5.747731] (-) TimerEvent: {}
+[5.848595] (-) TimerEvent: {}
+[5.880663] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.881559] (grampc-d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.948813] (-) TimerEvent: {}
+[6.049551] (-) TimerEvent: {}
+[6.150359] (-) TimerEvent: {}
+[6.178653] (grampc-d) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.179680] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.250560] (-) TimerEvent: {}
+[6.351334] (-) TimerEvent: {}
+[6.420176] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.420852] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.451493] (-) TimerEvent: {}
+[6.552367] (-) TimerEvent: {}
+[6.653747] (-) TimerEvent: {}
+[6.710227] (grampc-d) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.714127] (grampc-d) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.753918] (-) TimerEvent: {}
+[6.854556] (-) TimerEvent: {}
+[6.955221] (-) TimerEvent: {}
+[7.055862] (-) TimerEvent: {}
+[7.156509] (-) TimerEvent: {}
+[7.257187] (-) TimerEvent: {}
+[7.299301] (grampc-d) StdoutLine: {'line': b'-- Found libs: 0.0.0 (/home/ubuntu/UAV_ws/install/libs/share/libs/cmake)\n'}
+[7.321811] (grampc-d) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.357343] (-) TimerEvent: {}
+[7.457994] (-) TimerEvent: {}
+[7.558708] (-) TimerEvent: {}
+[7.659335] (-) TimerEvent: {}
+[7.688907] (grampc-d) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.689661] (grampc-d) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/UAV_ws/src/grampc-d/include>\n'}
+[7.690137] (grampc-d) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.705765] (grampc-d) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.748681] (grampc-d) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.749257] (grampc-d) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.755232] (grampc-d) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.759477] (-) TimerEvent: {}
+[7.774738] (grampc-d) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.815343] (grampc-d) StdoutLine: {'line': b'-- Generating done\n'}
+[7.821412] (grampc-d) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/UAV_ws/build/grampc-d\n'}
+[7.850562] (grampc-d) CommandEnded: {'returncode': 0}
+[7.852579] (grampc-d) JobProgress: {'identifier': 'grampc-d', 'progress': 'build'}
+[7.855039] (grampc-d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/UAV_ws/build/grampc-d', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/UAV_ws/build/grampc-d', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 38952 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/grampc-d'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 38952 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/libs:/opt/ros/foxy')]), 'shell': False}
+[7.863392] (-) TimerEvent: {}
+[7.964389] (-) TimerEvent: {}
+[8.025789] (grampc-d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target grampcd\x1b[0m\n'}
+[8.064534] (-) TimerEvent: {}
+[8.165186] (-) TimerEvent: {}
+[8.202636] (grampc-d) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/grampcd.dir/src/agent/neighbor.cpp.o\x1b[0m\n'}
+[8.203958] (grampc-d) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/grampcd.dir/src/agent/agent.cpp.o\x1b[0m\n'}
+[8.210613] (grampc-d) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/grampcd.dir/src/simulator/simulator.cpp.o\x1b[0m\n'}
+[8.213610] (grampc-d) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/grampcd.dir/src/coord/coordinator.cpp.o\x1b[0m\n'}
+[8.265446] (-) TimerEvent: {}
+[8.366317] (-) TimerEvent: {}
+[8.467183] (-) TimerEvent: {}
+[8.467985] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/agent/agent.hpp:19\x1b[m\x1b[K,\n'}
+[8.469326] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/agent/neighbor.cpp:13\x1b[m\x1b[K:\n'}
+[8.470621] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcereal/archives/binary.hpp: No such file or directory\n'}
+[8.471453] (grampc-d) StderrLine: {'line': b'   16 | #include \x1b[01;31m\x1b[K"cereal/archives/binary.hpp"\x1b[m\x1b[K\n'}
+[8.472072] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.473031] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/agent/agent.hpp:19\x1b[m\x1b[K,\n'}
+[8.473565] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/agent/agent.cpp:13\x1b[m\x1b[K:\n'}
+[8.474058] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcereal/archives/binary.hpp: No such file or directory\n'}
+[8.474453] (grampc-d) StderrLine: {'line': b'   16 | #include \x1b[01;31m\x1b[K"cereal/archives/binary.hpp"\x1b[m\x1b[K\n'}
+[8.474958] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.475323] (grampc-d) StderrLine: {'line': b'compilation terminated.\n'}
+[8.475638] (grampc-d) StderrLine: {'line': b'compilation terminated.\n'}
+[8.480353] (grampc-d) StderrLine: {'line': b'make[2]: *** [CMakeFiles/grampcd.dir/build.make:63: CMakeFiles/grampcd.dir/src/agent/agent.cpp.o] Error 1\n'}
+[8.481079] (grampc-d) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[8.483398] (grampc-d) StderrLine: {'line': b'make[2]: *** [CMakeFiles/grampcd.dir/build.make:76: CMakeFiles/grampcd.dir/src/agent/neighbor.cpp.o] Error 1\n'}
+[8.486032] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/problem_description_central.hpp:19\x1b[m\x1b[K,\n'}
+[8.486909] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/solver_central.hpp:16\x1b[m\x1b[K,\n'}
+[8.487721] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/simulator/simulator.hpp:15\x1b[m\x1b[K,\n'}
+[8.488518] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/simulator/simulator.cpp:13\x1b[m\x1b[K:\n'}
+[8.489061] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/state/agent_state.hpp:16:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcereal/archives/binary.hpp: No such file or directory\n'}
+[8.489631] (grampc-d) StderrLine: {'line': b'   16 | #include \x1b[01;31m\x1b[K"cereal/archives/binary.hpp"\x1b[m\x1b[K\n'}
+[8.490103] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.490493] (grampc-d) StderrLine: {'line': b'compilation terminated.\n'}
+[8.491890] (grampc-d) StderrLine: {'line': b'make[2]: *** [CMakeFiles/grampcd.dir/build.make:102: CMakeFiles/grampcd.dir/src/simulator/simulator.cpp.o] Error 1\n'}
+[8.567348] (-) TimerEvent: {}
+[8.668090] (-) TimerEvent: {}
+[8.768772] (-) TimerEvent: {}
+[8.869530] (-) TimerEvent: {}
+[8.970308] (-) TimerEvent: {}
+[9.071031] (-) TimerEvent: {}
+[9.171748] (-) TimerEvent: {}
+[9.266852] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.272332] (-) TimerEvent: {}
+[9.272873] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.273436] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.273795] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.274129] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.274447] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.274843] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:21:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.275211] (grampc-d) StderrLine: {'line': b'   21 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(CommunicationInterfaceLocal);\n'}
+[9.275547] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.275862] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.276237] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.276566] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:21:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.276926] (grampc-d) StderrLine: {'line': b'   21 |  DMPC_CLASS_FORWARD(CommunicationInterfaceLocal)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.277252] (grampc-d) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.277564] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.277887] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.278187] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.278502] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.278959] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.279316] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.279647] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:22:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.280011] (grampc-d) StderrLine: {'line': b'   22 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(CommunicationInterface);\n'}
+[9.280368] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.280713] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.281145] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.281465] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:22:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.281825] (grampc-d) StderrLine: {'line': b'   22 |  DMPC_CLASS_FORWARD(CommunicationInterface)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.282134] (grampc-d) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.282438] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.284365] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.286373] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.286864] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.287273] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.287628] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.287979] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:24:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.288350] (grampc-d) StderrLine: {'line': b'   24 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Solution);\n'}
+[9.288656] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.288935] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.289242] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.289565] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:24:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.289877] (grampc-d) StderrLine: {'line': b'   24 |  DMPC_CLASS_FORWARD(Solution)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.290173] (grampc-d) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.290491] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.290984] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.291351] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.291673] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.291975] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.292288] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.292599] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:26:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.292985] (grampc-d) StderrLine: {'line': b'   26 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Agent);\n'}
+[9.293287] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.293597] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.293906] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.294190] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:26:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.294472] (grampc-d) StderrLine: {'line': b'   26 |  DMPC_CLASS_FORWARD(Agent)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.294822] (grampc-d) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.295149] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.295474] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.295809] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.296105] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.296466] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.296785] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.297098] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:27:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.297420] (grampc-d) StderrLine: {'line': b'   27 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Neighbor);\n'}
+[9.297740] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.298071] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.298397] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.298783] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:27:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.299147] (grampc-d) StderrLine: {'line': b'   27 |  DMPC_CLASS_FORWARD(Neighbor)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.299457] (grampc-d) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.299771] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.300079] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.300424] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.300778] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.301126] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.301431] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.301753] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:28:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.302074] (grampc-d) StderrLine: {'line': b'   28 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Coordinator);\n'}
+[9.302381] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.302732] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.303077] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.303357] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:28:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.303679] (grampc-d) StderrLine: {'line': b'   28 |  DMPC_CLASS_FORWARD(Coordinator)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.303989] (grampc-d) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.304294] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.304605] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.304886] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.305236] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.305617] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.305941] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.306247] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:29:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.306539] (grampc-d) StderrLine: {'line': b'   29 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(StepSelector);\n'}
+[9.306912] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.307232] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.307548] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.307864] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:29:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.308199] (grampc-d) StderrLine: {'line': b'   29 |  DMPC_CLASS_FORWARD(StepSelector)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.308552] (grampc-d) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.308838] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.309164] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.309486] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.309840] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.310149] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.310503] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.310920] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:30:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.311268] (grampc-d) StderrLine: {'line': b'   30 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(SyncStepSelector);\n'}
+[9.311582] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.311873] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.312165] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.312483] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:30:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.312801] (grampc-d) StderrLine: {'line': b'   30 |  DMPC_CLASS_FORWARD(SyncStepSelector)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.313118] (grampc-d) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.313437] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.313790] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.314094] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.314392] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.314775] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.315118] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.315487] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:31:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.315813] (grampc-d) StderrLine: {'line': b'   31 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(AsyncStepSelector);\n'}
+[9.316122] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.316461] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.316766] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.317072] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:31:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.317427] (grampc-d) StderrLine: {'line': b'   31 |  DMPC_CLASS_FORWARD(AsyncStepSelector)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.317773] (grampc-d) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.318107] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.318424] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.318774] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.319109] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.319446] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.319764] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.320066] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:33:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.320388] (grampc-d) StderrLine: {'line': b'   33 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(DmpcInterface);\n'}
+[9.320703] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.321028] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.321348] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.321638] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:33:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.321933] (grampc-d) StderrLine: {'line': b'   33 |  DMPC_CLASS_FORWARD(DmpcInterface)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.322253] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.322608] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.323013] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.323319] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.323620] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.323997] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.324329] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.324644] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:35:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.324937] (grampc-d) StderrLine: {'line': b'   35 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Simulator);\n'}
+[9.325292] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.325606] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.325934] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.326246] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:35:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.326538] (grampc-d) StderrLine: {'line': b'   35 |  DMPC_CLASS_FORWARD(Simulator)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.327041] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.327393] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.327732] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.328037] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.328332] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.328661] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.328988] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.329312] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:37:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.329659] (grampc-d) StderrLine: {'line': b'   37 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(CommunicationData);\n'}
+[9.330009] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.330342] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.330736] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.331078] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:37:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.331381] (grampc-d) StderrLine: {'line': b'   37 |  DMPC_CLASS_FORWARD(CommunicationData)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.331699] (grampc-d) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.332012] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.332387] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.332735] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.333054] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.333356] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.333676] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.334006] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:39:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.334348] (grampc-d) StderrLine: {'line': b'   39 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(ModelFactory);\n'}
+[9.334719] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.335073] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.335401] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.335719] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:39:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.336054] (grampc-d) StderrLine: {'line': b'   39 |  DMPC_CLASS_FORWARD(ModelFactory)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.336396] (grampc-d) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.336741] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.337052] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.337367] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.337684] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.338024] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.338356] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.338720] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:40:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.339069] (grampc-d) StderrLine: {'line': b'   40 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(AgentModel);\n'}
+[9.339393] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.339716] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.340115] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.340513] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:40:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.340990] (grampc-d) StderrLine: {'line': b'   40 |  DMPC_CLASS_FORWARD(AgentModel)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.341345] (grampc-d) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.341763] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.342117] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.342448] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.342869] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.343208] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.343519] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.343825] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:41:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.344133] (grampc-d) StderrLine: {'line': b'   41 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(CouplingModel);\n'}
+[9.344451] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.344866] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.345334] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.345739] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:41:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.346216] (grampc-d) StderrLine: {'line': b'   41 |  DMPC_CLASS_FORWARD(CouplingModel)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.346687] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.347211] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.347601] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.347959] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.348423] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.348791] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.349185] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.349751] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:43:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.350116] (grampc-d) StderrLine: {'line': b'   43 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Logging);\n'}
+[9.350437] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.350894] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.351406] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.351820] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:43:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.352173] (grampc-d) StderrLine: {'line': b'   43 |  DMPC_CLASS_FORWARD(Logging)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.352536] (grampc-d) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.352871] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.353208] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.353547] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.353909] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.354260] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.354686] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.355166] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:45:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.355633] (grampc-d) StderrLine: {'line': b'   45 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(ApproximateNeighbor);\n'}
+[9.356115] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.356514] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.356859] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.357281] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:45:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.357832] (grampc-d) StderrLine: {'line': b'   45 |  DMPC_CLASS_FORWARD(ApproximateNeighbor)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.358328] (grampc-d) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.358774] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.359281] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.359861] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.360311] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.360775] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.361241] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.361586] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:46:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.361911] (grampc-d) StderrLine: {'line': b'   46 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(SolverCentral);\n'}
+[9.362250] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.362568] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.363018] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.363348] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:46:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.363684] (grampc-d) StderrLine: {'line': b'   46 |  DMPC_CLASS_FORWARD(SolverCentral)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.364060] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.364575] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.364971] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.365459] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.365891] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.366392] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.366949] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.367352] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:47:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.367700] (grampc-d) StderrLine: {'line': b'   47 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(SolverLocal);\n'}
+[9.368034] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.368372] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.368708] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.369054] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:47:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.369500] (grampc-d) StderrLine: {'line': b'   47 |  DMPC_CLASS_FORWARD(SolverLocal)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.369925] (grampc-d) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.370388] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.370815] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.371155] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.371486] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.371828] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.372167] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.372487] (-) TimerEvent: {}
+[9.372946] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:48:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.373526] (grampc-d) StderrLine: {'line': b'   48 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(SolverLocalADMM);\n'}
+[9.374031] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.374384] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.374821] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.375172] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:48:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.375513] (grampc-d) StderrLine: {'line': b'   48 |  DMPC_CLASS_FORWARD(SolverLocalADMM)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.375849] (grampc-d) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.376155] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.376471] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.376795] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.377215] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.377698] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.378142] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.378527] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:49:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.379048] (grampc-d) StderrLine: {'line': b'   49 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(SolverLocalSensi);\n'}
+[9.379392] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.379726] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.380046] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.380385] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:49:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.380719] (grampc-d) StderrLine: {'line': b'   49 |  DMPC_CLASS_FORWARD(SolverLocalSensi)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.381111] (grampc-d) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.381472] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.381806] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.382236] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.382609] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:34:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.383009] (grampc-d) StderrLine: {'line': b'   34 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.383408] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.383704] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:50:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.384027] (grampc-d) StderrLine: {'line': b'   50 |  \x1b[01;36m\x1b[KDMPC_CLASS_FORWARD\x1b[m\x1b[K(Simulator);\n'}
+[9.384333] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.384638] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.384963] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.385320] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:50:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.385671] (grampc-d) StderrLine: {'line': b'   50 |  DMPC_CLASS_FORWARD(Simulator)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.386028] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.386475] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.386966] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.387311] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.387688] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.388052] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.388417] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.388885] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:52:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.389280] (grampc-d) StderrLine: {'line': b'   52 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(AgentInfo);\n'}
+[9.389749] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.390134] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.390611] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.391104] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:52:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.391476] (grampc-d) StderrLine: {'line': b'   52 |  DMPC_STRUCT_FORWARD(AgentInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.391902] (grampc-d) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.392249] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.392600] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.393038] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.393482] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.394047] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.394521] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.394956] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:53:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.395297] (grampc-d) StderrLine: {'line': b'   53 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(CouplingInfo);\n'}
+[9.395607] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.395936] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.396289] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.396722] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:53:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.397158] (grampc-d) StderrLine: {'line': b'   53 |  DMPC_STRUCT_FORWARD(CouplingInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.397549] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.397946] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.398324] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.398821] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.399197] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.399625] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.400086] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.400441] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:55:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.400840] (grampc-d) StderrLine: {'line': b'   55 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(AgentState);\n'}
+[9.401276] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.401737] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.402196] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.402703] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:55:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.403203] (grampc-d) StderrLine: {'line': b'   55 |  DMPC_STRUCT_FORWARD(AgentState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.403771] (grampc-d) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.404238] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.404692] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.405179] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.405622] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.406040] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.406378] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.406760] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:56:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.407164] (grampc-d) StderrLine: {'line': b'   56 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(CouplingState);\n'}
+[9.407565] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.408084] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.408489] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.408832] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:56:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.409205] (grampc-d) StderrLine: {'line': b'   56 |  DMPC_STRUCT_FORWARD(CouplingState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.409633] (grampc-d) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.409990] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.410365] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.410799] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.411199] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.411539] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.411868] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.412187] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:57:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.412492] (grampc-d) StderrLine: {'line': b'   57 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(MultiplierState);\n'}
+[9.412801] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.413203] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.413613] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.413942] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:57:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.414283] (grampc-d) StderrLine: {'line': b'   57 |  DMPC_STRUCT_FORWARD(MultiplierState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.414644] (grampc-d) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.415012] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.415345] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.415807] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.416213] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.416750] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.417178] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.417504] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:58:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.417851] (grampc-d) StderrLine: {'line': b'   58 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(PenaltyState);\n'}
+[9.418385] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.418793] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.419255] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.419666] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:58:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.420147] (grampc-d) StderrLine: {'line': b'   58 |  DMPC_STRUCT_FORWARD(PenaltyState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.420546] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.420963] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.421307] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.421622] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.421948] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.422326] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.422800] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.423223] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:59:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.423563] (grampc-d) StderrLine: {'line': b'   59 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(SensiState);\n'}
+[9.423891] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.424177] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.424498] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.424898] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:59:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.425310] (grampc-d) StderrLine: {'line': b'   59 |  DMPC_STRUCT_FORWARD(SensiState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.425743] (grampc-d) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.426170] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.426609] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.426978] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.427416] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.427767] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.428226] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.428628] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:60:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.429049] (grampc-d) StderrLine: {'line': b'   60 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(ConstraintState);\n'}
+[9.429419] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.429750] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.430052] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.430374] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:60:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.430847] (grampc-d) StderrLine: {'line': b'   60 |  DMPC_STRUCT_FORWARD(ConstraintState)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.431244] (grampc-d) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.431573] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.431865] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.432189] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.432615] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.433105] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.433528] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.433879] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:63:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.434365] (grampc-d) StderrLine: {'line': b'   63 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(AgentInfo);\n'}
+[9.434823] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.435175] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.435553] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.435889] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:63:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.436197] (grampc-d) StderrLine: {'line': b'   63 |  DMPC_STRUCT_FORWARD(AgentInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.436527] (grampc-d) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.436935] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.437334] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.437785] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.438209] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.438683] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.439159] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.439537] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:64:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.439995] (grampc-d) StderrLine: {'line': b'   64 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(CouplingInfo);\n'}
+[9.440407] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.440787] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.441119] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.441430] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:64:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.441761] (grampc-d) StderrLine: {'line': b'   64 |  DMPC_STRUCT_FORWARD(CouplingInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.442091] (grampc-d) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.442454] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.442978] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.443324] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.443648] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.443978] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.444320] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.444661] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:65:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.445013] (grampc-d) StderrLine: {'line': b'   65 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(OptimizationInfo);\n'}
+[9.445404] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.445832] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.446259] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.446775] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:65:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.447189] (grampc-d) StderrLine: {'line': b'   65 |  DMPC_STRUCT_FORWARD(OptimizationInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.447722] (grampc-d) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.448085] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.448530] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.448910] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.449337] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.449686] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.450036] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.450368] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:66:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.450801] (grampc-d) StderrLine: {'line': b'   66 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(CommunicationInfo);\n'}
+[9.451227] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.451564] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.451868] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.452188] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:66:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.452661] (grampc-d) StderrLine: {'line': b'   66 |  DMPC_STRUCT_FORWARD(CommunicationInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.453040] (grampc-d) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.453476] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.453827] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.454193] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.454528] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.454984] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.455355] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.455797] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:67:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.456245] (grampc-d) StderrLine: {'line': b'   67 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(TuningInfo);\n'}
+[9.456597] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.456933] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.457322] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.457653] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:67:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.457992] (grampc-d) StderrLine: {'line': b'   67 |  DMPC_STRUCT_FORWARD(TuningInfo)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.458330] (grampc-d) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.458861] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.459308] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.459718] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.460055] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.460391] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.460743] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.461086] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:69:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.461518] (grampc-d) StderrLine: {'line': b'   69 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(Message);\n'}
+[9.461937] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.462321] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.462716] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.463082] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:69:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.463492] (grampc-d) StderrLine: {'line': b'   69 |  DMPC_STRUCT_FORWARD(Message)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.463895] (grampc-d) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.464304] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:15\x1b[m\x1b[K,\n'}
+[9.464732] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.465091] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.465431] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/types.hpp:39:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.465830] (grampc-d) StderrLine: {'line': b'   39 |         DMPC_DECLARE_PTR(C, C)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.466187] (grampc-d) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.466614] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:70:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.467117] (grampc-d) StderrLine: {'line': b'   70 |  \x1b[01;36m\x1b[KDMPC_STRUCT_FORWARD\x1b[m\x1b[K(MessageHandler);\n'}
+[9.467457] (grampc-d) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.467787] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:15\x1b[m\x1b[K,\n'}
+[9.468128] (grampc-d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.468532] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/class_forwarding.hpp:70:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.468921] (grampc-d) StderrLine: {'line': b'   70 |  DMPC_STRUCT_FORWARD(MessageHandler)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.469260] (grampc-d) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.472671] (-) TimerEvent: {}
+[9.527256] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.528222] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:35:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.528697] (grampc-d) StderrLine: {'line': b'   35 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool register_agent(const AgentInfo& agent_info);\n'}
+[9.529034] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.529348] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:37:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.529688] (grampc-d) StderrLine: {'line': b'   37 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool register_coupling(const CouplingInfo& coupling_info);\n'}
+[9.530011] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.530364] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:40:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.530808] (grampc-d) StderrLine: {'line': b'   40 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool deregister_agent(const AgentInfo& agent_info);\n'}
+[9.531162] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.531490] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:41:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.531852] (grampc-d) StderrLine: {'line': b'   41 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool deregister_coupling(CouplingInfoPtr coupling_info);\n'}
+[9.532229] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.532599] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.532975] (grampc-d) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K unsigned int get_numberOfAgents() const;\n'}
+[9.533367] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.533756] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:63:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.534224] (grampc-d) StderrLine: {'line': b'   63 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool solve_ADMM(int outer_iterations = 1, int inner_iterations = 1);\n'}
+[9.534749] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.535171] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:72:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.535552] (grampc-d) StderrLine: {'line': b'   72 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool solve_sensi(int iterations = 1);\n'}
+[9.535880] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.572849] (-) TimerEvent: {}
+[9.583141] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:15\x1b[m\x1b[K:\n'}
+[9.584011] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:77:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.584388] (grampc-d) StderrLine: {'line': b'   77 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions( const AgentState& state_1, const AgentState& state_2 );\n'}
+[9.584780] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.585128] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:79:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.585533] (grampc-d) StderrLine: {'line': b'   79 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions( const CouplingState& state_1, const CouplingState& state_2 );\n'}
+[9.585880] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.586277] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:81:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.586797] (grampc-d) StderrLine: {'line': b'   81 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions( const MultiplierState& state_1, const MultiplierState& state_2 );\n'}
+[9.587190] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.587635] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:83:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.588008] (grampc-d) StderrLine: {'line': b'   83 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions( const PenaltyState& state_1, const PenaltyState& state_2 );\n'}
+[9.588340] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.588643] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:85:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.588974] (grampc-d) StderrLine: {'line': b'   85 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions(const SensiState& state_1, const SensiState& state_2);\n'}
+[9.589499] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.589885] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/optim/optim_util.hpp:87:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.590331] (grampc-d) StderrLine: {'line': b'   87 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool compare_stateDimensions(const ConstraintState& state_1, const ConstraintState& state_2);\n'}
+[9.590754] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.673038] (-) TimerEvent: {}
+[9.773747] (-) TimerEvent: {}
+[9.836773] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:18\x1b[m\x1b[K:\n'}
+[9.837759] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:38:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.838745] (grampc-d) StderrLine: {'line': b'   38 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector<int>& list, const int element);\n'}
+[9.839760] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.840179] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:40:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.840549] (grampc-d) StderrLine: {'line': b'   40 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector<std::shared_ptr<CouplingInfo>>& list, const CouplingInfo& element);\n'}
+[9.841164] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.841573] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:42:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.842187] (grampc-d) StderrLine: {'line': b'   42 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector< CouplingInfo >& list, const CouplingInfo& element);\n'}
+[9.842659] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.843081] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:44:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.843424] (grampc-d) StderrLine: {'line': b'   44 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector< CommunicationDataPtr >& list, const std::shared_ptr<CommunicationData>& element);\n'}
+[9.843813] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.844151] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:18\x1b[m\x1b[K:\n'}
+[9.844507] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:46:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.844866] (grampc-d) StderrLine: {'line': b'   46 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector<NeighborPtr>& list, const int neighbor_id);\n'}
+[9.845225] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.845574] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:48:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.846148] (grampc-d) StderrLine: {'line': b'   48 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector<NeighborPtr>& list, const NeighborPtr& element);\n'}
+[9.846566] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.847018] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/util/data_conversion.hpp:50:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.847400] (grampc-d) StderrLine: {'line': b'   50 |   static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool is_element_in_vector(const std::vector<AgentInfo>& list, const int id);\n'}
+[9.847765] (grampc-d) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.848130] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:20\x1b[m\x1b[K:\n'}
+[9.848499] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:33:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.848894] (grampc-d) StderrLine: {'line': b'   33 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool register_agent(const AgentPtr& agent) = 0;\n'}
+[9.849254] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.849624] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:35:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.849989] (grampc-d) StderrLine: {'line': b'   35 |      virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool deregister_agent(const AgentInfo& agent) = 0;\n'}
+[9.850360] (grampc-d) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.851195] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:37:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.851678] (grampc-d) StderrLine: {'line': b'   37 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool register_coupling(const CouplingInfo& coupling) = 0;\n'}
+[9.852053] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.852431] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:39:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.852791] (grampc-d) StderrLine: {'line': b'   39 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool deregister_coupling(const CouplingInfo& coupling) = 0;\n'}
+[9.853160] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.853553] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:42:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.853916] (grampc-d) StderrLine: {'line': b'   42 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool fromCommunication_deregistered_coupling(const CouplingInfo& coupling) = 0;\n'}
+[9.854292] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.854712] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:45:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.855129] (grampc-d) StderrLine: {'line': b'   45 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_numberOfNeighbors( const int number, const int from, const int to ) = 0;\n'}
+[9.855508] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.855858] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:47:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.856216] (grampc-d) StderrLine: {'line': b'   47 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_localCopies(const AgentState& state, const int from, const int to) = 0;\n'}
+[9.856592] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.856939] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:49:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.857320] (grampc-d) StderrLine: {'line': b'   49 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_agentState(const AgentState& state, const ConstraintState& constr_state, const int from, const int to) = 0;\n'}
+[9.857668] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.858023] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:20\x1b[m\x1b[K:\n'}
+[9.858367] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:51:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.858905] (grampc-d) StderrLine: {'line': b'   51 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_desiredAgentState( const AgentState& desired_state, const int from, const int to ) = 0;\n'}
+[9.859346] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.859712] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:53:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.860133] (grampc-d) StderrLine: {'line': b'   53 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_couplingState(const CouplingState& state, const int from, const int to) = 0;\n'}
+[9.860501] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.860864] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:55:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.861216] (grampc-d) StderrLine: {'line': b'   55 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_couplingState(const CouplingState& state, const CouplingState& state2, const int from, const int to) = 0;\n'}
+[9.861818] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.862190] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:57:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.862525] (grampc-d) StderrLine: {'line': b'   57 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_multiplierState(const MultiplierState& state, PenaltyState penalty, const int from, const int to) = 0;\n'}
+[9.862960] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.863377] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.863705] (grampc-d) StderrLine: {'line': b'   59 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_convergenceFlag(const bool converged, const int from) = 0;\n'}
+[9.864023] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.864319] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:61:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.864619] (grampc-d) StderrLine: {'line': b'   61 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_stoppedAlgFlag(const bool flag, const int from, const int to) = 0;\n'}
+[9.864922] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.865267] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:63:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.865576] (grampc-d) StderrLine: {'line': b'   63 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool send_stoppedAlgFlag(const bool flag, const int from) = 0;\n'}
+[9.865864] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.866155] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:66:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.866503] (grampc-d) StderrLine: {'line': b'   66 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool configure_optimization(const OptimizationInfo& info) = 0;\n'}
+[9.866908] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.867246] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:69:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.867574] (grampc-d) StderrLine: {'line': b'   69 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool trigger_step(const AlgStep& step) = 0;\n'}
+[9.867887] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.868189] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/comm/communication_interface.hpp:122:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.868555] (grampc-d) StderrLine: {'line': b'  122 |         virtual \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K unsigned int get_numberOfAgents() const = 0;\n'}
+[9.868864] (grampc-d) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.869183] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:22\x1b[m\x1b[K:\n'}
+[9.869500] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/info/agent_info.hpp:33:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.869817] (grampc-d) StderrLine: {'line': b'   33 |   \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool operator== (const AgentInfo& info) const { return (id_ == info.id_) && (model_name_ == info.model_name_); }\n'}
+[9.870136] (grampc-d) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.870444] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:23\x1b[m\x1b[K:\n'}
+[9.870843] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/info/coupling_info.hpp:35:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.871245] (grampc-d) StderrLine: {'line': b'   35 |         \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool operator== (const CouplingInfo &info) const\n'}
+[9.871592] (grampc-d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.871908] (grampc-d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:13\x1b[m\x1b[K:\n'}
+[9.872199] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kgrampcd::Coordinator::Coordinator(const CommunicationInterfacePtr&, bool, const LoggingPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.872494] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:105:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrampcd::Coordinator::simulation_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.872785] (grampc-d) StderrLine: {'line': b'  105 |         bool \x1b[01;35m\x1b[Ksimulation_\x1b[m\x1b[K = false;\n'}
+[9.873069] (grampc-d) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.873393] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/include/grampcd/coord/coordinator.hpp:102:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgrampcd::LoggingPtr grampcd::Coordinator::log_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.873731] (-) TimerEvent: {}
+[9.874189] (grampc-d) StderrLine: {'line': b'  102 |         LoggingPtr \x1b[01;35m\x1b[Klog_\x1b[m\x1b[K;\n'}
+[9.874779] (grampc-d) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.875190] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:28:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.875534] (grampc-d) StderrLine: {'line': b'   28 |     \x1b[01;35m\x1b[KCoordinator\x1b[m\x1b[K::Coordinator(const CommunicationInterfacePtr& communication_interface, bool simulation, const LoggingPtr& log)\n'}
+[9.875885] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.876212] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:\x1b[m\x1b[K At global scope:\n'}
+[9.876580] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:35:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.876937] (grampc-d) StderrLine: {'line': b'   35 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::register_agent(const AgentInfo& agent_info)\n'}
+[9.877283] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.944356] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:62:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.944936] (grampc-d) StderrLine: {'line': b'   62 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::register_coupling(const CouplingInfo& coupling_info)\n'}
+[9.945325] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.973928] (-) TimerEvent: {}
+[9.993805] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:115:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[9.994391] (grampc-d) StderrLine: {'line': b'  115 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::deregister_agent(const AgentInfo &agent_info)\n'}
+[9.994885] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.999644] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:142:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[10.000210] (grampc-d) StderrLine: {'line': b'  142 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::deregister_coupling(CouplingInfoPtr coupling_info)\n'}
+[10.000656] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.008100] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid grampcd::Coordinator::print_network() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.008671] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:181:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstructured bindings only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.009082] (grampc-d) StderrLine: {'line': b'  181 |         for( const auto& \x1b[01;35m\x1b[K[\x1b[m\x1b[Kid, info] : agents_ )\n'}
+[10.009447] (grampc-d) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.019977] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:\x1b[m\x1b[K At global scope:\n'}
+[10.020566] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:195:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[10.020912] (grampc-d) StderrLine: {'line': b'  195 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K unsigned int Coordinator::get_numberOfAgents() const\n'}
+[10.021217] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.022173] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:223:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[10.022765] (grampc-d) StderrLine: {'line': b'  223 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::solve_ADMM(int outer_iterations, int inner_iterations)\n'}
+[10.023189] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.025479] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:302:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[10.026008] (grampc-d) StderrLine: {'line': b'  302 |     \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K bool Coordinator::solve_sensi(int iter)\n'}
+[10.026401] (grampc-d) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.028838] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid grampcd::Coordinator::fromCommunication_received_flagStoppedAlg(bool, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.029389] (grampc-d) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/grampc-d/src/coord/coordinator.cpp:362:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[10.029900] (grampc-d) StderrLine: {'line': b'  362 |     void Coordinator::fromCommunication_received_flagStoppedAlg(\x1b[01;35m\x1b[Kbool flag\x1b[m\x1b[K, int from)\n'}
+[10.030292] (grampc-d) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.074102] (-) TimerEvent: {}
+[10.174845] (-) TimerEvent: {}
+[10.275535] (-) TimerEvent: {}
+[10.376239] (-) TimerEvent: {}
+[10.477124] (-) TimerEvent: {}
+[10.577893] (-) TimerEvent: {}
+[10.678623] (-) TimerEvent: {}
+[10.779300] (-) TimerEvent: {}
+[10.879957] (-) TimerEvent: {}
+[10.980622] (-) TimerEvent: {}
+[11.081327] (-) TimerEvent: {}
+[11.182075] (-) TimerEvent: {}
+[11.282769] (-) TimerEvent: {}
+[11.383580] (-) TimerEvent: {}
+[11.484710] (-) TimerEvent: {}
+[11.551950] (grampc-d) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/grampcd.dir/all] Error 2\n'}
+[11.552614] (grampc-d) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[11.557585] (grampc-d) CommandEnded: {'returncode': 2}
+[11.585005] (-) TimerEvent: {}
+[11.685870] (-) TimerEvent: {}
+[11.786908] (-) TimerEvent: {}
+[11.887712] (-) TimerEvent: {}
+[11.988484] (-) TimerEvent: {}
+[12.089143] (-) TimerEvent: {}
+[12.192998] (-) TimerEvent: {}
+[12.294206] (-) TimerEvent: {}
+[12.395058] (-) TimerEvent: {}
+[12.499195] (-) TimerEvent: {}
+[12.600985] (-) TimerEvent: {}
+[12.702003] (-) TimerEvent: {}
+[12.803227] (-) TimerEvent: {}
+[12.905034] (-) TimerEvent: {}
+[13.006309] (-) TimerEvent: {}
+[13.107101] (-) TimerEvent: {}
+[13.151241] (grampc-d) JobEnded: {'identifier': 'grampc-d', 'rc': 0}
+[13.159050] (-) EventReactorShutdown: {}

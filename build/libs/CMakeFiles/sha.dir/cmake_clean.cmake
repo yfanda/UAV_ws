@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-build"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-configure"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-download"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-install"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-mkdir"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-patch"
-  "/home/evan/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-update"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-build"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-configure"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-download"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-install"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-mkdir"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-patch"
+  "/home/ubuntu/UAV_ws/src/libs/libs/sha/src/sha-stamp/sha-update"
   "CMakeFiles/sha"
   "CMakeFiles/sha-complete"
 )

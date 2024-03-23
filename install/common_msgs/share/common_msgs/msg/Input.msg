@@ -1,1 +1,1 @@
-/home/evan/UAV_ws/src/common_msgs/msg/Input.msg
+float64[8] input

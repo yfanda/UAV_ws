@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mpc_node_exe.dir/src/mpc_node.cpp.o"
-  "CMakeFiles/mpc_node_exe.dir/src/mpc_node.cpp.o.d"
   "mpc_node_exe"
   "mpc_node_exe.pdb"
 )

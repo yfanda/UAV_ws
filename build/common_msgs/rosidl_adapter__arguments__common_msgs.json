@@ -1,9 +1,9 @@
 {
   "package_name": "common_msgs",
   "non_idl_tuples": [
-    "/home/evan/UAV_ws/src/common_msgs:msg/XTraj.msg",
-    "/home/evan/UAV_ws/src/common_msgs:msg/UTraj.msg",
-    "/home/evan/UAV_ws/src/common_msgs:msg/State.msg",
-    "/home/evan/UAV_ws/src/common_msgs:msg/Input.msg"
+    "/home/ubuntu/UAV_ws/src/common_msgs:msg/XTraj.msg",
+    "/home/ubuntu/UAV_ws/src/common_msgs:msg/UTraj.msg",
+    "/home/ubuntu/UAV_ws/src/common_msgs:msg/State.msg",
+    "/home/ubuntu/UAV_ws/src/common_msgs:msg/Input.msg"
   ]
 }

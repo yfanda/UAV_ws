@@ -1,0 +1,49 @@
+[1.404s] Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/uav_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/uav_launch
+[1.651s] -- The C compiler identification is GNU 9.4.0
+[1.864s] -- The CXX compiler identification is GNU 9.4.0
+[1.880s] -- Check for working C compiler: /usr/bin/cc
+[2.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.166s] -- Detecting C compiler ABI info
+[2.458s] -- Detecting C compiler ABI info - done
+[2.495s] -- Detecting C compile features
+[2.496s] -- Detecting C compile features - done
+[2.504s] -- Check for working CXX compiler: /usr/bin/c++
+[2.816s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.819s] -- Detecting CXX compiler ABI info
+[3.141s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Detecting CXX compile features
+[3.181s] -- Detecting CXX compile features - done
+[3.202s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.323s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.203s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.554s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.557s] -- Added test 'lint_cmake' to check CMake code style
+[4.559s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.563s] -- Added test 'xmllint' to check XML markup files
+[4.573s] -- Configuring done
+[4.583s] -- Generating done
+[4.587s] -- Build files have been written to: /home/ubuntu/UAV_ws/build/uav_launch
+[4.599s] Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/uav_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/uav_launch
+[4.609s] Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/uav_launch -- -j4 -l4
+[4.766s] Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/uav_launch -- -j4 -l4
+[4.917s] Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/uav_launch
+[4.954s] -- Install configuration: ""
+[4.955s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch//launch
+[4.955s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch//launch/uav_launch.py
+[4.956s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/package_run_dependencies/uav_launch
+[4.958s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/parent_prefix_path/uav_launch
+[4.959s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/ament_prefix_path.sh
+[4.960s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/ament_prefix_path.dsv
+[4.961s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/path.sh
+[4.962s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/path.dsv
+[4.963s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.bash
+[4.963s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.sh
+[4.964s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.zsh
+[4.965s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.dsv
+[4.966s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/package.dsv
+[4.967s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/packages/uav_launch
+[4.968s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/cmake/uav_launchConfig.cmake
+[4.969s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/cmake/uav_launchConfig-version.cmake
+[4.970s] -- Installing: /home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/package.xml
+[4.976s] Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/uav_launch

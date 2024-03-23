@@ -1,4 +1,4 @@
-/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/XTraj.idl
-/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/UTraj.idl
-/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/State.idl
-/home/evan/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/Input.idl
+/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/XTraj.idl
+/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/UTraj.idl
+/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/State.idl
+/home/ubuntu/UAV_ws/build/common_msgs/rosidl_adapter/common_msgs:msg/Input.idl

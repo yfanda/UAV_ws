@@ -1,0 +1,16 @@
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch//launch/uav_launch.py
+/home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/package_run_dependencies/uav_launch
+/home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/parent_prefix_path/uav_launch
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/ament_prefix_path.sh
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/ament_prefix_path.dsv
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/path.sh
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/environment/path.dsv
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.bash
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.sh
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.zsh
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/local_setup.dsv
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/package.dsv
+/home/ubuntu/UAV_ws/install/uav_launch/share/ament_index/resource_index/packages/uav_launch
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/cmake/uav_launchConfig.cmake
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/cmake/uav_launchConfig-version.cmake
+/home/ubuntu/UAV_ws/install/uav_launch/share/uav_launch/package.xml

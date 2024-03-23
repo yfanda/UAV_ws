@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
 
-set(_exported_include_dirs "${common_msgs_DIR}/../../../include/common_msgs")
+set(_exported_include_dirs "${common_msgs_DIR}/../../../include")
 
 # append include directories to common_msgs_INCLUDE_DIRS
 # warn about not existing paths

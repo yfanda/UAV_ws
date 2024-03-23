@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simulator_node_exe.dir/src/simulator_node.cpp.o"
-  "CMakeFiles/simulator_node_exe.dir/src/simulator_node.cpp.o.d"
   "simulator_node_exe"
   "simulator_node_exe.pdb"
 )

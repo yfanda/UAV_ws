@@ -1,0 +1,86 @@
+[1.422s] Invoking command in '/home/ubuntu/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ubuntu/UAV_ws/src/simulator_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/simulator_node
+[1.667s] -- The C compiler identification is GNU 9.4.0
+[1.886s] -- The CXX compiler identification is GNU 9.4.0
+[1.902s] -- Check for working C compiler: /usr/bin/cc
+[2.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.188s] -- Detecting C compiler ABI info
+[2.483s] -- Detecting C compiler ABI info - done
+[2.519s] -- Detecting C compile features
+[2.520s] -- Detecting C compile features - done
+[2.528s] -- Check for working CXX compiler: /usr/bin/c++
+[2.838s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.842s] -- Detecting CXX compiler ABI info
+[3.164s] -- Detecting CXX compiler ABI info - done
+[3.202s] -- Detecting CXX compile features
+[3.203s] -- Detecting CXX compile features - done
+[3.225s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.346s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.223s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.572s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.117s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.341s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.140s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.149s] -- Looking for pthread.h
+[6.450s] -- Looking for pthread.h - found
+[6.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.760s] -- Looking for pthread_create in pthreads
+[7.007s] -- Looking for pthread_create in pthreads - not found
+[7.008s] -- Looking for pthread_create in pthread
+[7.307s] -- Looking for pthread_create in pthread - found
+[7.312s] -- Found Threads: TRUE  
+[7.923s] -- Found common_msgs: 0.0.0 (/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake)
+[7.956s] -- Found grampc-d: 0.0.0 (/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/cmake)
+[7.962s] -- Found libs: 0.0.0 (/home/ubuntu/UAV_ws/install/libs/share/libs/cmake)
+[7.986s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.338s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.339s] -- Configured cppcheck include dirs: 
+[8.339s] -- Configured cppcheck exclude dirs and/or files: 
+[8.342s] -- Added test 'lint_cmake' to check CMake code style
+[8.347s] -- Added test 'uncrustify' to check C / C++ code style
+[8.347s] -- Configured uncrustify additional arguments: 
+[8.349s] -- Added test 'xmllint' to check XML markup files
+[8.370s] -- Configuring done
+[8.400s] -- Generating done
+[8.406s] -- Build files have been written to: /home/ubuntu/UAV_ws/build/simulator_node
+[8.424s] Invoked command in '/home/ubuntu/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ubuntu/UAV_ws/src/simulator_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/simulator_node
+[8.435s] Invoking command in '/home/ubuntu/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/simulator_node -- -j4 -l4
+[8.613s] [35m[1mScanning dependencies of target simulator_node_exe[0m
+[8.801s] [ 50%] [32mBuilding CXX object CMakeFiles/simulator_node_exe.dir/src/simulator_node.cpp.o[0m
+[14.074s] [01m[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:[m[K In constructor ‘[01m[KSimulatorNode::SimulatorNode()[m[K’:
+[14.074s] [01m[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:76:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K-Wvla[m[K]
+[14.075s]    76 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+[14.075s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[14.114s] [01m[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:26:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[14.115s]    26 |         bool [01;35m[Kfo[m[K = file.is_open();
+[14.115s]       |              [01;35m[K^~[m[K
+[14.116s] [01m[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:64:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTsim[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[14.116s]    64 |         const typeRNum [01;35m[KTsim[m[K = 3.3;
+[14.116s]       |                        [01;35m[K^~~~[m[K
+[27.903s] [100%] [32m[1mLinking CXX executable simulator_node_exe[0m
+[32.500s] [100%] Built target simulator_node_exe
+[32.540s] Invoked command in '/home/ubuntu/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/simulator_node -- -j4 -l4
+[32.717s] Invoking command in '/home/ubuntu/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/simulator_node
+[32.752s] -- Install configuration: ""
+[32.753s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/lib/simulator_node/simulator_node_exe
+[32.815s] -- Set runtime path of "/home/ubuntu/UAV_ws/install/simulator_node/lib/simulator_node/simulator_node_exe" to ""
+[32.816s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/package_run_dependencies/simulator_node
+[32.817s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/parent_prefix_path/simulator_node
+[32.819s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.sh
+[32.820s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.dsv
+[32.821s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/path.sh
+[32.822s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/path.dsv
+[32.822s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.bash
+[32.823s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.sh
+[32.824s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.zsh
+[32.825s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.dsv
+[32.826s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/package.dsv
+[32.827s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/packages/simulator_node
+[32.828s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig.cmake
+[32.829s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig-version.cmake
+[32.830s] -- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/package.xml
+[32.836s] Invoked command in '/home/ubuntu/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/test:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/simulator_node

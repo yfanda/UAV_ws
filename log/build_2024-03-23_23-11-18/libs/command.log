@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/libs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/libs
+Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/libs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/libs
+Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/libs -- -j4 -l4
+Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/libs -- -j4 -l4
+Invoking command in '/home/ubuntu/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/libs
+Invoked command in '/home/ubuntu/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/libs

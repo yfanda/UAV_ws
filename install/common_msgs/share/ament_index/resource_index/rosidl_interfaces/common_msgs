@@ -1,1 +1,8 @@
-/home/evan/UAV_ws/build/common_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/common_msgs
+msg/Input.idl
+msg/Input.msg
+msg/State.idl
+msg/State.msg
+msg/UTraj.idl
+msg/UTraj.msg
+msg/XTraj.idl
+msg/XTraj.msg

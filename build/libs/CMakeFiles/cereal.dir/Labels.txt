@@ -1,13 +1,13 @@
 # Target labels
  cereal
 # Source files and their labels
-/home/evan/UAV_ws/build/libs/CMakeFiles/cereal
-/home/evan/UAV_ws/build/libs/CMakeFiles/cereal.rule
-/home/evan/UAV_ws/build/libs/CMakeFiles/cereal-complete.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-build.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-configure.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-download.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-install.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-mkdir.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-patch.rule
-/home/evan/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-update.rule
+/home/ubuntu/UAV_ws/build/libs/CMakeFiles/cereal
+/home/ubuntu/UAV_ws/build/libs/CMakeFiles/cereal.rule
+/home/ubuntu/UAV_ws/build/libs/CMakeFiles/cereal-complete.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-install.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-mkdir.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-download.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-update.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-patch.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-configure.rule
+/home/ubuntu/UAV_ws/src/libs/libs/cereal/src/cereal-stamp/cereal-build.rule
