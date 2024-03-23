@@ -1,0 +1,4 @@
+Invoking command in '/home/evan/UAV_ws/build/libs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/libs -- -j16 -l16
+Invoked command in '/home/evan/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/libs -- -j16 -l16
+Invoking command in '/home/evan/UAV_ws/build/libs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/libs
+Invoked command in '/home/evan/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/libs

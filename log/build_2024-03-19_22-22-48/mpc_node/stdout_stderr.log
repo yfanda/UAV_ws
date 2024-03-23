@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node_exe.dir/src/mpc_node.cpp.o[0m
+[01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::compute_and_publish_input(common_msgs::msg::State_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:73:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   73 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:85:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   85 |         bool [01;35m[Kfo[m[K = file.is_open();
+      |              [01;35m[K^~[m[K
+[100%] [32m[1mLinking CXX executable mpc_node_exe[0m
+[100%] Built target mpc_node_exe
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/lib/mpc_node/mpc_node_exe
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/package_run_dependencies/mpc_node
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/parent_prefix_path/mpc_node
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.sh
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.dsv
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.bash
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.sh
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.zsh
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.dsv
+-- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.dsv
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/packages/mpc_node
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig.cmake
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.xml

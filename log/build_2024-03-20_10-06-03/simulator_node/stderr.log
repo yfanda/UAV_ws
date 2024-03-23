@@ -1,0 +1,20 @@
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:[m[K In member function ‘[01m[Kvoid SimulatorNode::publishNewState()[m[K’:
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:93:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   93 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:41:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |         bool [01;35m[Kfo[m[K = file.is_open();
+      |              [01;35m[K^~[m[K
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:81:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTsim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |         const typeRNum [01;35m[KTsim[m[K = 3.3;
+      |                        [01;35m[K^~~~[m[K
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:[m[K In member function ‘[01m[Kvoid SimulatorNode::ui_callback(common_msgs::msg::Input_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:214:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  214 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:166:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |         bool [01;35m[Kfo[m[K = file.is_open();
+      |              [01;35m[K^~[m[K
+[01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:202:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTsim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  202 |         const typeRNum [01;35m[KTsim[m[K = 3.3;
+      |                        [01;35m[K^~~~[m[K

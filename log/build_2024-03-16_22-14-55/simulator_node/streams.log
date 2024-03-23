@@ -1,0 +1,92 @@
+[0.001s] Invoking command in '/home/evan/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/evan/UAV_ws/src/simulator_node -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/simulator_node
+[0.002s] -- The C compiler identification is GNU 11.4.0
+[0.002s] -- The CXX compiler identification is GNU 11.4.0
+[0.002s] -- Detecting C compiler ABI info
+[0.017s] -- Detecting C compiler ABI info - done
+[0.023s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.023s] -- Detecting C compile features
+[0.023s] -- Detecting C compile features - done
+[0.025s] -- Detecting CXX compiler ABI info
+[0.112s] -- Detecting CXX compiler ABI info - done
+[0.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.118s] -- Detecting CXX compile features
+[0.118s] -- Detecting CXX compile features - done
+[0.121s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.437s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.521s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.562s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.659s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.661s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.782s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.810s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Looking for pthread.h
+[0.898s] -- Looking for pthread.h - found
+[0.898s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.974s] -- Found Threads: TRUE  
+[1.097s] -- Found common_msgs: 0.0.0 (/home/evan/UAV_ws/install/common_msgs/share/common_msgs/cmake)
+[1.109s] -- Found grampc-d: 0.0.0 (/home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake)
+[1.110s] -- Found libs: 0.0.0 (/home/evan/UAV_ws/install/libs/share/libs/cmake)
+[1.114s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.184s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.184s] -- Configured cppcheck include dirs: 
+[1.184s] -- Configured cppcheck exclude dirs and/or files: 
+[1.185s] -- Added test 'lint_cmake' to check CMake code style
+[1.186s] -- Added test 'uncrustify' to check C / C++ code style
+[1.186s] -- Configured uncrustify additional arguments: 
+[1.186s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.196s] -- Generating done
+[1.197s] -- Build files have been written to: /home/evan/UAV_ws/build/simulator_node
+[1.206s] Invoked command in '/home/evan/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/evan/UAV_ws/src/simulator_node -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/simulator_node
+[1.208s] Invoking command in '/home/evan/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/evan/UAV_ws/build/simulator_node -- -j16 -l16
+[1.266s] [ 50%] [32mBuilding CXX object CMakeFiles/simulator_node_exe.dir/src/simulator_node.cpp.o[0m
+[3.634s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:[m[K In member function ‘[01m[Kvoid SimulatorNode::publishNewState()[m[K’:
+[3.634s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:93:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[3.634s]    93 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+[3.635s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.635s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:41:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.635s]    41 |         bool [01;35m[Kfo[m[K = file.is_open();
+[3.635s]       |              [01;35m[K^~[m[K
+[3.635s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:81:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTsim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.636s]    81 |         const typeRNum [01;35m[KTsim[m[K = 3.3;
+[3.636s]       |                        [01;35m[K^~~~[m[K
+[3.638s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:[m[K In member function ‘[01m[Kvoid SimulatorNode::ui_callback(common_msgs::msg::Input_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.638s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:199:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[3.638s]   199 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+[3.638s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.639s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:151:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.639s]   151 |         bool [01;35m[Kfo[m[K = file.is_open();
+[3.640s]       |              [01;35m[K^~[m[K
+[3.640s] [01m[K/home/evan/UAV_ws/src/simulator_node/src/simulator_node.cpp:187:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTsim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.640s]   187 |         const typeRNum [01;35m[KTsim[m[K = 3.3;
+[3.640s]       |                        [01;35m[K^~~~[m[K
+[10.433s] [100%] [32m[1mLinking CXX executable simulator_node_exe[0m
+[12.361s] [100%] Built target simulator_node_exe
+[12.375s] Invoked command in '/home/evan/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/evan/UAV_ws/build/simulator_node -- -j16 -l16
+[12.410s] Invoking command in '/home/evan/UAV_ws/build/simulator_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/evan/UAV_ws/build/simulator_node
+[12.417s] -- Install configuration: "Debug"
+[12.417s] -- Execute custom install script
+[12.418s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/lib/simulator_node/simulator_node_exe
+[12.427s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/ament_index/resource_index/package_run_dependencies/simulator_node
+[12.437s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/ament_index/resource_index/parent_prefix_path/simulator_node
+[12.447s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.sh
+[12.456s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.dsv
+[12.464s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/environment/path.sh
+[12.476s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/environment/path.dsv
+[12.486s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/local_setup.bash
+[12.496s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/local_setup.sh
+[12.505s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/local_setup.zsh
+[12.515s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/local_setup.dsv
+[12.524s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.dsv
+[12.534s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/ament_index/resource_index/packages/simulator_node
+[12.545s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig.cmake
+[12.554s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig-version.cmake
+[12.563s] -- Symlinking: /home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.xml
+[12.576s] Invoked command in '/home/evan/UAV_ws/build/simulator_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/evan/UAV_ws/build/simulator_node

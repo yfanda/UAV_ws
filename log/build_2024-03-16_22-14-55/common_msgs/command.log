@@ -1,0 +1,6 @@
+Invoking command in '/home/evan/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/evan/UAV_ws/src/common_msgs -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/common_msgs
+Invoked command in '/home/evan/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/evan/UAV_ws/src/common_msgs -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/common_msgs
+Invoking command in '/home/evan/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/common_msgs -- -j16 -l16
+Invoked command in '/home/evan/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/common_msgs -- -j16 -l16
+Invoking command in '/home/evan/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/common_msgs
+Invoked command in '/home/evan/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/common_msgs

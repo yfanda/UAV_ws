@@ -1,0 +1,79 @@
+[0.001s] Invoking command in '/home/evan/UAV_ws/build/mpc_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/evan/UAV_ws/src/mpc_node -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/mpc_node
+[0.002s] -- The C compiler identification is GNU 11.4.0
+[0.002s] -- The CXX compiler identification is GNU 11.4.0
+[0.002s] -- Detecting C compiler ABI info
+[0.006s] -- Detecting C compiler ABI info - done
+[0.011s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.011s] -- Detecting C compile features
+[0.012s] -- Detecting C compile features - done
+[0.014s] -- Detecting CXX compiler ABI info
+[0.100s] -- Detecting CXX compiler ABI info - done
+[0.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.107s] -- Detecting CXX compile features
+[0.107s] -- Detecting CXX compile features - done
+[0.110s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.555s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.649s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.777s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.820s] -- Looking for pthread.h
+[0.897s] -- Looking for pthread.h - found
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.974s] -- Found Threads: TRUE  
+[1.097s] -- Found libs: 0.0.0 (/home/evan/UAV_ws/install/libs/share/libs/cmake)
+[1.098s] -- Found grampc-d: 0.0.0 (/home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake)
+[1.099s] -- Found common_msgs: 0.0.0 (/home/evan/UAV_ws/install/common_msgs/share/common_msgs/cmake)
+[1.114s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.185s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.185s] -- Configured cppcheck include dirs: 
+[1.185s] -- Configured cppcheck exclude dirs and/or files: 
+[1.185s] -- Added test 'lint_cmake' to check CMake code style
+[1.186s] -- Added test 'uncrustify' to check C / C++ code style
+[1.186s] -- Configured uncrustify additional arguments: 
+[1.187s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.196s] -- Generating done
+[1.198s] -- Build files have been written to: /home/evan/UAV_ws/build/mpc_node
+[1.209s] Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/evan/UAV_ws/src/mpc_node -DCMAKE_BUILD_TYPE=Debug -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/evan/UAV_ws/install/mpc_node
+[1.210s] Invoking command in '/home/evan/UAV_ws/build/mpc_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[1.266s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node_exe.dir/src/mpc_node.cpp.o[0m
+[3.595s] [01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid ControlNode::compute_and_publish_input(common_msgs::msg::State_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.595s] [01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:72:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmodel_parameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[3.595s]    72 |         typeRNum [01;35m[Kmodel_parameters[m[K[num_xtraj + num_utraj + 2];
+[3.595s]       |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.596s] [01m[K/home/evan/UAV_ws/src/mpc_node/src/mpc_node.cpp:84:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.596s]    84 |         bool [01;35m[Kfo[m[K = file.is_open();
+[3.596s]       |              [01;35m[K^~[m[K
+[10.402s] [100%] [32m[1mLinking CXX executable mpc_node_exe[0m
+[12.290s] [100%] Built target mpc_node_exe
+[12.305s] Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[12.343s] Invoking command in '/home/evan/UAV_ws/build/mpc_node': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node
+[12.351s] -- Install configuration: "Debug"
+[12.352s] -- Execute custom install script
+[12.352s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/lib/mpc_node/mpc_node_exe
+[12.362s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/package_run_dependencies/mpc_node
+[12.373s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/parent_prefix_path/mpc_node
+[12.385s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.sh
+[12.396s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.dsv
+[12.406s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.sh
+[12.416s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.dsv
+[12.426s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.bash
+[12.436s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.sh
+[12.446s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.zsh
+[12.456s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.dsv
+[12.465s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.dsv
+[12.476s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/packages/mpc_node
+[12.486s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig.cmake
+[12.496s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig-version.cmake
+[12.505s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.xml
+[12.517s] Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/common_msgs/lib:/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node

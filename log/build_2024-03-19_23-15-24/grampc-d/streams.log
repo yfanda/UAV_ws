@@ -1,0 +1,78 @@
+[0.089s] Invoking command in '/home/evan/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/grampc-d -- -j16 -l16
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target grampcd[0m
+[0.223s] [100%] Built target grampcd
+[0.234s] Invoked command in '/home/evan/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/grampc-d -- -j16 -l16
+[0.364s] Invoking command in '/home/evan/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/grampc-d
+[0.440s] -- Install configuration: "Debug"
+[0.440s] -- Execute custom install script
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/library_path.sh
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/library_path.dsv
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/UAV_agent_model.hpp
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/agent/agent.hpp
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/agent/async_step_selector.hpp
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/agent/neighbor.hpp
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/agent/step_selector.hpp
+[0.440s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/agent/sync_step_selector.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/comm/communication_interface.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/comm/communication_interface_central.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/comm/communication_interface_local.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/comm/message.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/comm/message_handler.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/coord/coordinator.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/general_model_factory.hpp
+[0.441s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/agent_info.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/communication_data.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/communication_info.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/coupling_info.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/optimization_info.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/info/tuning_info.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/interface/dmpc_interface.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/interface/interface.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/interface/python_interface.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/model/agent_model.hpp
+[0.442s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/model/coupling_model.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/model/model_factory.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/approximate_neighbor.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/optim_util.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/problem_description_central.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/problem_description_local_default.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/problem_description_local_neighbor_approximation.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/problem_description_local_sensi.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/solution.hpp
+[0.443s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/solver_central.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/solver_local.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/solver_local_admm.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/optim/solver_local_sensi.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/simulator/simulator.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/agent_state.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/constraint_state.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/coupling_state.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/multiplier_state.hpp
+[0.444s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/penalty_state.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/state/sensi_state.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/auto_tune.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/class_forwarding.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/constants.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/data_conversion.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/logging.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/include/grampcd/util/types.hpp
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/ament_index/resource_index/package_run_dependencies/grampc-d
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/ament_index/resource_index/parent_prefix_path/grampc-d
+[0.445s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/ament_prefix_path.sh
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/ament_prefix_path.dsv
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/path.sh
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/environment/path.dsv
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/local_setup.bash
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/local_setup.sh
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/local_setup.zsh
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/local_setup.dsv
+[0.446s] -- Symlinking: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.dsv
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/ament_index/resource_index/packages/grampc-d
+[0.446s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/ament_cmake_export_targets-extras.cmake
+[0.447s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampc-dConfig.cmake
+[0.447s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampc-dConfig-version.cmake
+[0.447s] -- Up-to-date symlink: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.xml
+[0.447s] -- Up-to-date: /home/evan/UAV_ws/install/grampc-d/lib/libgrampcd.a
+[0.447s] -- Up-to-date: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampcdExport.cmake
+[0.447s] -- Up-to-date: /home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampcdExport-debug.cmake
+[0.447s] Invoked command in '/home/evan/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/grampc-d

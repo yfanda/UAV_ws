@@ -1,0 +1,10 @@
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/uninstall.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/mpc_node_uninstall.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/mpc_node_exe.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/test.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/edit_cache.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/rebuild_cache.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/list_install_components.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/install.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/install/local.dir
+/home/evan/UAV_ws/build/mpc_node/CMakeFiles/install/strip.dir

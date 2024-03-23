@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/evan/UAV_ws/install/grampc-d/include/**",
+        "/home/evan/UAV_ws/install/libs/include/**",
+        "/home/evan/UAV_ws/install/common_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/evan/UAV_ws/src/common_msgs/include/**",
+        "/home/evan/UAV_ws/src/grampc-d/include/**",
+        "/home/evan/UAV_ws/src/libs/include/**",
+        "/home/evan/UAV_ws/src/mpc_node/include/**",
+        "/home/evan/UAV_ws/src/simulator_node/include/**",
+        "/home/evan/UAV_ws/src/test/include/**",
+        "/home/evan/UAV_ws/src/uav_launch/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

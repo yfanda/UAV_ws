@@ -1,0 +1,11 @@
+setup.py
+common_msgs/__init__.py
+common_msgs.egg-info/PKG-INFO
+common_msgs.egg-info/SOURCES.txt
+common_msgs.egg-info/dependency_links.txt
+common_msgs.egg-info/top_level.txt
+common_msgs/msg/__init__.py
+common_msgs/msg/_input.py
+common_msgs/msg/_state.py
+common_msgs/msg/_u_traj.py
+common_msgs/msg/_x_traj.py

@@ -1,0 +1,3 @@
+/home/evan/UAV_ws/install/grampc-d/lib/libgrampcd.a
+/home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampcdExport.cmake
+/home/evan/UAV_ws/install/grampc-d/share/grampc-d/cmake/grampcdExport-debug.cmake

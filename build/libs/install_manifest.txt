@@ -1,0 +1,3 @@
+/home/evan/UAV_ws/install/libs/lib/libgrampc.a
+/home/evan/UAV_ws/install/libs/share/libs/cmake/grampcExport.cmake
+/home/evan/UAV_ws/install/libs/share/libs/cmake/grampcExport-debug.cmake

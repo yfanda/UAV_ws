@@ -1,0 +1,23 @@
+[0.077s] Invoking command in '/home/evan/UAV_ws/build/mpc_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[0.132s] [100%] Built target mpc_node_exe
+[0.144s] Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[0.175s] Invoking command in '/home/evan/UAV_ws/build/mpc_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node
+[0.182s] -- Install configuration: "Debug"
+[0.182s] -- Execute custom install script
+[0.182s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/lib/mpc_node/mpc_node_exe
+[0.182s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/package_run_dependencies/mpc_node
+[0.182s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/parent_prefix_path/mpc_node
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.sh
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.sh
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/environment/path.dsv
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.bash
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.sh
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.zsh
+[0.183s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/local_setup.dsv
+[0.183s] -- Symlinking: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.dsv
+[0.194s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/ament_index/resource_index/packages/mpc_node
+[0.194s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig.cmake
+[0.194s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/cmake/mpc_nodeConfig-version.cmake
+[0.194s] -- Up-to-date symlink: /home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.xml
+[0.197s] Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node

@@ -1,0 +1,528 @@
+[0.889s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Debug']
+[0.889s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Debug'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x789bb44eb820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789bb47e5060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789bb47e5060>>)
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.960s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/evan/UAV_ws'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msgs) by extension 'ros'
+[0.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_msgs' with type 'ros.ament_cmake' and name 'common_msgs'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['ignore', 'ignore_ament_install']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ignore'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'colcon_meta'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extensions ['ros']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/grampc-d) by extension 'ros'
+[0.982s] DEBUG:colcon.colcon_core.package_identification:Package 'src/grampc-d' with type 'ros.ament_cmake' and name 'grampc-d'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/libs) by extension 'ros'
+[0.983s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libs' with type 'ros.ament_cmake' and name 'libs'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ignore_ament_install'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['colcon_pkg']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'colcon_pkg'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['colcon_meta']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_node) by extension 'ros'
+[0.984s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_node' with type 'ros.ament_cmake' and name 'mpc_node'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator_node) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulator_node' with type 'ros.ament_cmake' and name 'simulator_node'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test' with type 'ros.ament_cmake' and name 'test'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['colcon_pkg']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'colcon_pkg'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['colcon_meta']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'colcon_meta'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extensions ['ros']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_launch) by extension 'ros'
+[0.986s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_launch' with type 'ros.ament_cmake' and name 'uav_launch'
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.099s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[1.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_target' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.199s] Level 5:colcon.colcon_core.verb:set package 'common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.200s] DEBUG:colcon.colcon_core.verb:Building package 'common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/common_msgs', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/common_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_target' from command line to 'None'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_clean_first' from command line to 'False'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'cmake_force_configure' from command line to 'False'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'ament_cmake_args' from command line to 'None'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.212s] Level 5:colcon.colcon_core.verb:set package 'libs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.212s] DEBUG:colcon.colcon_core.verb:Building package 'libs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/libs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/libs', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/libs', 'symlink_install': True, 'test_result_base': None}
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_target' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'uav_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.224s] DEBUG:colcon.colcon_core.verb:Building package 'uav_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/uav_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/uav_launch', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/uav_launch', 'symlink_install': True, 'test_result_base': None}
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_target' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_clean_cache' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_clean_first' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'cmake_force_configure' from command line to 'False'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'ament_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'catkin_cmake_args' from command line to 'None'
+[1.236s] Level 5:colcon.colcon_core.verb:set package 'grampc-d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.236s] DEBUG:colcon.colcon_core.verb:Building package 'grampc-d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/grampc-d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/grampc-d', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/grampc-d', 'symlink_install': True, 'test_result_base': None}
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_clean_first' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'cmake_force_configure' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'ament_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.259s] DEBUG:colcon.colcon_core.verb:Building package 'test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/test', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/test', 'symlink_install': True, 'test_result_base': None}
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'mpc_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.271s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/mpc_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/mpc_node', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/mpc_node', 'symlink_install': True, 'test_result_base': None}
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Debug']'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_target' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.283s] Level 5:colcon.colcon_core.verb:set package 'simulator_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.283s] DEBUG:colcon.colcon_core.verb:Building package 'simulator_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evan/UAV_ws/build/simulator_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evan/UAV_ws/install/simulator_node', 'merge_install': False, 'path': '/home/evan/UAV_ws/src/simulator_node', 'symlink_install': True, 'test_result_base': None}
+[1.295s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/libs' with build type 'ament_cmake'
+[1.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/libs'
+[1.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/common_msgs' with build type 'ament_cmake'
+[1.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/common_msgs'
+[1.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/uav_launch' with build type 'ament_cmake'
+[1.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/uav_launch'
+[1.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/libs -- -j16 -l16
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/common_msgs -- -j16 -l16
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/uav_launch -- -j16 -l16
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/uav_launch -- -j16 -l16
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/uav_launch
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/libs -- -j16 -l16
+[1.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_launch)
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/uav_launch
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch' for CMake module files
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch' for CMake config files
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_launch', 'cmake_prefix_path')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/bin'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/lib/pkgconfig/uav_launch.pc'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/lib/python3.10/site-packages'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/bin'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.dsv'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.sh'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.bash'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/uav_launch/share/colcon-core/packages/uav_launch)
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/libs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/libs
+[1.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_launch)
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch' for CMake module files
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch' for CMake config files
+[1.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_launch', 'cmake_prefix_path')
+[1.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.dsv'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/hook/cmake_prefix_path.sh'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/bin'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/lib/pkgconfig/uav_launch.pc'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/lib/python3.10/site-packages'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/uav_launch/bin'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.sh'
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.bash'
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/uav_launch/share/uav_launch/package.zsh'
+[1.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/uav_launch/share/colcon-core/packages/uav_launch)
+[1.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libs)
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/libs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/libs
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs' for CMake module files
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs' for CMake config files
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('libs', 'cmake_prefix_path')
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.sh'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/bin'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib/pkgconfig/libs.pc'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib/python3.10/site-packages'
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/bin'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.ps1'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/libs/share/libs/package.dsv'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.sh'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.zsh'
+[1.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/libs/share/colcon-core/packages/libs)
+[1.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/common_msgs -- -j16 -l16
+[1.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libs)
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs' for CMake module files
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs' for CMake config files
+[1.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('libs', 'cmake_prefix_path')
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/libs/share/libs/hook/cmake_prefix_path.sh'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/bin'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib/pkgconfig/libs.pc'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/lib/python3.10/site-packages'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/libs/bin'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/libs/share/libs/package.dsv'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.bash'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/libs/share/libs/package.zsh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/libs/share/colcon-core/packages/libs)
+[1.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/grampc-d' with build type 'ament_cmake'
+[1.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/grampc-d'
+[1.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/test' with build type 'ament_cmake'
+[1.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/test'
+[1.893s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/grampc-d -- -j16 -l16
+[1.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/common_msgs
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/test': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/test -- -j16 -l16
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/test' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/test -- -j16 -l16
+[1.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msgs)
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/common_msgs
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs' for CMake module files
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs' for CMake config files
+[2.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'cmake_prefix_path')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib'
+[2.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'ld_library_path_lib')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.sh'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/bin'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib/pkgconfig/common_msgs.pc'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib/python3.10/site-packages'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/bin'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.ps1'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.dsv'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.sh'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.bash'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.zsh'
+[2.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/common_msgs/share/colcon-core/packages/common_msgs)
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/test': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/test
+[2.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[2.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/test' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/test
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test' for CMake module files
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test' for CMake config files
+[2.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/lib/pkgconfig/test.pc'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/lib/python3.10/site-packages'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/bin'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/test/share/test/package.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.bash'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.zsh'
+[2.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/test/share/colcon-core/packages/test)
+[2.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test)
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test' for CMake module files
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test' for CMake config files
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('test', 'cmake_prefix_path')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/test/share/test/hook/cmake_prefix_path.sh'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/bin'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/lib/pkgconfig/test.pc'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/lib/python3.10/site-packages'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/test/bin'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/test/share/test/package.dsv'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/test/share/test/package.zsh'
+[2.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/test/share/colcon-core/packages/test)
+[2.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msgs)
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs' for CMake module files
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs' for CMake config files
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'cmake_prefix_path')
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.ps1'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/cmake_prefix_path.sh'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib'
+[2.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msgs', 'ld_library_path_lib')
+[2.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.dsv'
+[2.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/hook/ld_library_path_lib.sh'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/bin'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib/pkgconfig/common_msgs.pc'
+[2.281s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/lib/python3.10/site-packages'
+[2.281s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/common_msgs/bin'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.sh'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.bash'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/common_msgs/share/common_msgs/package.zsh'
+[2.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/common_msgs/share/colcon-core/packages/common_msgs)
+[9.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/grampc-d -- -j16 -l16
+[9.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/grampc-d': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/grampc-d
+[9.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grampc-d)
+[9.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/grampc-d' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/libs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/libs/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/grampc-d
+[9.526s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d' for CMake module files
+[9.527s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d' for CMake config files
+[9.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('grampc-d', 'cmake_prefix_path')
+[9.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.ps1'
+[9.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.dsv'
+[9.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.sh'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/bin'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib/pkgconfig/grampc-d.pc'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib/python3.10/site-packages'
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/bin'
+[9.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.ps1'
+[9.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.dsv'
+[9.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.sh'
+[9.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.bash'
+[9.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.zsh'
+[9.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/grampc-d/share/colcon-core/packages/grampc-d)
+[9.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(grampc-d)
+[9.713s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d' for CMake module files
+[9.714s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d' for CMake config files
+[9.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('grampc-d', 'cmake_prefix_path')
+[9.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.ps1'
+[9.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.dsv'
+[9.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/hook/cmake_prefix_path.sh'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/bin'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib/pkgconfig/grampc-d.pc'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/lib/python3.10/site-packages'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/grampc-d/bin'
+[9.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.ps1'
+[9.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.dsv'
+[9.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.sh'
+[9.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.bash'
+[9.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/grampc-d/share/grampc-d/package.zsh'
+[9.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/grampc-d/share/colcon-core/packages/grampc-d)
+[9.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/mpc_node' with build type 'ament_cmake'
+[9.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/mpc_node'
+[9.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evan/UAV_ws/src/simulator_node' with build type 'ament_cmake'
+[9.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evan/UAV_ws/src/simulator_node'
+[9.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/mpc_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[9.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/simulator_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/simulator_node -- -j16 -l16
+[11.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/simulator_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/simulator_node -- -j16 -l16
+[11.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/evan/UAV_ws/build/mpc_node -- -j16 -l16
+[11.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/simulator_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/simulator_node
+[11.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evan/UAV_ws/build/mpc_node': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node
+[11.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulator_node)
+[11.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/simulator_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/simulator_node
+[11.892s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node' for CMake module files
+[11.893s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node' for CMake config files
+[11.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator_node', 'cmake_prefix_path')
+[11.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.ps1'
+[11.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.dsv'
+[11.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.sh'
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib'
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/bin'
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib/pkgconfig/simulator_node.pc'
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib/python3.10/site-packages'
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/bin'
+[11.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.ps1'
+[11.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.dsv'
+[11.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.sh'
+[11.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.bash'
+[11.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.zsh'
+[11.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/simulator_node/share/colcon-core/packages/simulator_node)
+[11.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_node)
+[11.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evan/UAV_ws/build/mpc_node' returned '0': AMENT_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/UAV_ws/install/grampc-d/lib:/home/evan/UAV_ws/install/libs/lib:/home/evan/UAV_ws/install/common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/evan/UAV_ws/install/common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/evan/UAV_ws/build/mpc_node
+[11.947s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node' for CMake module files
+[11.948s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node' for CMake config files
+[11.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_node', 'cmake_prefix_path')
+[11.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.ps1'
+[11.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.dsv'
+[11.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.sh'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/bin'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib/pkgconfig/mpc_node.pc'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib/python3.10/site-packages'
+[11.961s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/bin'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.ps1'
+[11.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.dsv'
+[11.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.sh'
+[11.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.bash'
+[11.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.zsh'
+[11.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/mpc_node/share/colcon-core/packages/mpc_node)
+[11.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulator_node)
+[12.002s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node' for CMake module files
+[12.002s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node' for CMake config files
+[12.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator_node', 'cmake_prefix_path')
+[12.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.ps1'
+[12.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.dsv'
+[12.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/hook/cmake_prefix_path.sh'
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib'
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/bin'
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib/pkgconfig/simulator_node.pc'
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/lib/python3.10/site-packages'
+[12.016s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/simulator_node/bin'
+[12.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.ps1'
+[12.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.dsv'
+[12.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.sh'
+[12.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.bash'
+[12.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/simulator_node/share/simulator_node/package.zsh'
+[12.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/simulator_node/share/colcon-core/packages/simulator_node)
+[12.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_node)
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node' for CMake module files
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node' for CMake config files
+[12.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_node', 'cmake_prefix_path')
+[12.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.ps1'
+[12.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.dsv'
+[12.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/hook/cmake_prefix_path.sh'
+[12.072s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib'
+[12.072s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/bin'
+[12.072s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib/pkgconfig/mpc_node.pc'
+[12.072s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/lib/python3.10/site-packages'
+[12.073s] Level 1:colcon.colcon_core.environment:checking '/home/evan/UAV_ws/install/mpc_node/bin'
+[12.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.ps1'
+[12.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.dsv'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.sh'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.bash'
+[12.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/evan/UAV_ws/install/mpc_node/share/mpc_node/package.zsh'
+[12.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evan/UAV_ws/install/mpc_node/share/colcon-core/packages/mpc_node)
+[12.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.087s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.105s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.116s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evan/UAV_ws/install/local_setup.ps1'
+[12.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/evan/UAV_ws/install/_local_setup_util_ps1.py'
+[12.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evan/UAV_ws/install/setup.ps1'
+[12.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evan/UAV_ws/install/local_setup.sh'
+[12.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/evan/UAV_ws/install/_local_setup_util_sh.py'
+[12.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evan/UAV_ws/install/setup.sh'
+[12.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evan/UAV_ws/install/local_setup.bash'
+[12.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evan/UAV_ws/install/setup.bash'
+[12.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evan/UAV_ws/install/local_setup.zsh'
+[12.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evan/UAV_ws/install/setup.zsh'

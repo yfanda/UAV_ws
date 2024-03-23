@@ -1,0 +1,21 @@
+[0.059s] Invoking command in '/home/evan/UAV_ws/build/test': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/test -- -j16 -l16
+[0.100s] Invoked command in '/home/evan/UAV_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/test -- -j16 -l16
+[0.179s] Invoking command in '/home/evan/UAV_ws/build/test': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/test
+[0.186s] -- Install configuration: "Debug"
+[0.186s] -- Execute custom install script
+[0.186s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.186s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/environment/path.sh
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/environment/path.dsv
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/local_setup.bash
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/local_setup.sh
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/local_setup.zsh
+[0.187s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/local_setup.dsv
+[0.187s] -- Symlinking: /home/evan/UAV_ws/install/test/share/test/package.dsv
+[0.196s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/ament_index/resource_index/packages/test
+[0.196s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/cmake/testConfig.cmake
+[0.197s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.197s] -- Up-to-date symlink: /home/evan/UAV_ws/install/test/share/test/package.xml
+[0.198s] Invoked command in '/home/evan/UAV_ws/build/test' returned '0': CMAKE_PREFIX_PATH=/home/evan/UAV_ws/install/libs:/home/evan/UAV_ws/install/uav_launch:/home/evan/UAV_ws/install/test:/home/evan/UAV_ws/install/simulator_node:/home/evan/UAV_ws/install/mpc_node:/home/evan/UAV_ws/install/grampc-d:/home/evan/UAV_ws/install/common_msgs:/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/test
