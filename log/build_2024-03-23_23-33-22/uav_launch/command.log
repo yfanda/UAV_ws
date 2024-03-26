@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/uav_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/uav_launch
-Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/uav_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/uav_launch
-Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/uav_launch -- -j4 -l4
-Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/uav_launch -- -j4 -l4
-Invoking command in '/home/ubuntu/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/uav_launch
-Invoked command in '/home/ubuntu/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/uav_launch

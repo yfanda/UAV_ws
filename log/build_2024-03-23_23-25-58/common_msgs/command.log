@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/common_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/common_msgs
-Invoked command in '/home/ubuntu/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/UAV_ws/src/common_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/common_msgs
-Invoking command in '/home/ubuntu/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/common_msgs -- -j4 -l4
-Invoked command in '/home/ubuntu/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/UAV_ws/build/common_msgs -- -j4 -l4
-Invoking command in '/home/ubuntu/UAV_ws/build/common_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/common_msgs
-Invoked command in '/home/ubuntu/UAV_ws/build/common_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/UAV_ws/build/common_msgs

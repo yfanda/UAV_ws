@@ -1,9 +1,0 @@
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/install/strip.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/install/local.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/install.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/list_install_components.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/edit_cache.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/test.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/uav_launch_uninstall.dir
-/home/ubuntu/UAV_ws/build/uav_launch/CMakeFiles/uninstall.dir

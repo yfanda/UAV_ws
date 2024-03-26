@@ -1,4 +1,0 @@
-Invoking command in '/home/evan/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/uav_launch -- -j16 -l16
-Invoked command in '/home/evan/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/evan/UAV_ws/build/uav_launch -- -j16 -l16
-Invoking command in '/home/evan/UAV_ws/build/uav_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/uav_launch
-Invoked command in '/home/evan/UAV_ws/build/uav_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/evan/UAV_ws/build/uav_launch

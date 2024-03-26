@@ -1,8 +1,0 @@
-msg/Input.idl
-msg/Input.msg
-msg/State.idl
-msg/State.msg
-msg/UTraj.idl
-msg/UTraj.msg
-msg/XTraj.idl
-msg/XTraj.msg
