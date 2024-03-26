@@ -1,0 +1,489 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (-) JobUnselected: {'identifier': 'common_msgs'}
+[0.001268] (-) JobUnselected: {'identifier': 'grampc-d'}
+[0.001911] (-) JobUnselected: {'identifier': 'libs'}
+[0.002424] (-) JobUnselected: {'identifier': 'mpc_node'}
+[0.002662] (-) JobUnselected: {'identifier': 'uav_launch'}
+[0.002818] (simulator_node) JobQueued: {'identifier': 'simulator_node', 'dependencies': OrderedDict([('common_msgs', '/home/ubuntu/UAV_ws/install/common_msgs'), ('libs', '/home/ubuntu/UAV_ws/install/libs'), ('grampc-d', '/home/ubuntu/UAV_ws/install/grampc-d')])}
+[0.002969] (simulator_node) JobStarted: {'identifier': 'simulator_node'}
+[0.099475] (-) TimerEvent: {}
+[0.205072] (-) TimerEvent: {}
+[0.306112] (-) TimerEvent: {}
+[0.407249] (-) TimerEvent: {}
+[0.509090] (-) TimerEvent: {}
+[0.611063] (-) TimerEvent: {}
+[0.711799] (-) TimerEvent: {}
+[0.812659] (-) TimerEvent: {}
+[0.914450] (-) TimerEvent: {}
+[1.015350] (-) TimerEvent: {}
+[1.116554] (-) TimerEvent: {}
+[1.223349] (-) TimerEvent: {}
+[1.328067] (-) TimerEvent: {}
+[1.429002] (-) TimerEvent: {}
+[1.445595] (simulator_node) JobProgress: {'identifier': 'simulator_node', 'progress': 'cmake'}
+[1.446809] (simulator_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/UAV_ws/src/simulator_node', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/UAV_ws/install/simulator_node'], 'cwd': '/home/ubuntu/UAV_ws/build/simulator_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 46080 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/UAV_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/simulator_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 46080 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy')]), 'shell': False}
+[1.529232] (-) TimerEvent: {}
+[1.630059] (-) TimerEvent: {}
+[1.731024] (-) TimerEvent: {}
+[1.831811] (-) TimerEvent: {}
+[1.932718] (-) TimerEvent: {}
+[2.033630] (-) TimerEvent: {}
+[2.134566] (-) TimerEvent: {}
+[2.235451] (-) TimerEvent: {}
+[2.336381] (-) TimerEvent: {}
+[2.437305] (-) TimerEvent: {}
+[2.526386] (simulator_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.537430] (-) TimerEvent: {}
+[2.638172] (-) TimerEvent: {}
+[2.739093] (-) TimerEvent: {}
+[2.840006] (-) TimerEvent: {}
+[2.940920] (-) TimerEvent: {}
+[3.041854] (-) TimerEvent: {}
+[3.142779] (-) TimerEvent: {}
+[3.243633] (-) TimerEvent: {}
+[3.275623] (simulator_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.305453] (simulator_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.343795] (-) TimerEvent: {}
+[3.444597] (-) TimerEvent: {}
+[3.545696] (-) TimerEvent: {}
+[3.615472] (simulator_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.623669] (simulator_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.645848] (-) TimerEvent: {}
+[3.746595] (-) TimerEvent: {}
+[3.847464] (-) TimerEvent: {}
+[3.926074] (simulator_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.947618] (-) TimerEvent: {}
+[3.966727] (simulator_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.968412] (simulator_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.980338] (simulator_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.047862] (-) TimerEvent: {}
+[4.148622] (-) TimerEvent: {}
+[4.249469] (-) TimerEvent: {}
+[4.301431] (simulator_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.305152] (simulator_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.349633] (-) TimerEvent: {}
+[4.450361] (-) TimerEvent: {}
+[4.551127] (-) TimerEvent: {}
+[4.625680] (simulator_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.651270] (-) TimerEvent: {}
+[4.662461] (simulator_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.664113] (simulator_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.703516] (simulator_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.751518] (-) TimerEvent: {}
+[4.859610] (-) TimerEvent: {}
+[4.919488] (simulator_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.942569] (simulator_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.959819] (-) TimerEvent: {}
+[5.060742] (-) TimerEvent: {}
+[5.161403] (-) TimerEvent: {}
+[5.262045] (-) TimerEvent: {}
+[5.362629] (-) TimerEvent: {}
+[5.463193] (-) TimerEvent: {}
+[5.563832] (-) TimerEvent: {}
+[5.664578] (-) TimerEvent: {}
+[5.765243] (-) TimerEvent: {}
+[5.865879] (-) TimerEvent: {}
+[5.944074] (simulator_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.966042] (-) TimerEvent: {}
+[6.066779] (-) TimerEvent: {}
+[6.167406] (-) TimerEvent: {}
+[6.268040] (-) TimerEvent: {}
+[6.332100] (simulator_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.368198] (-) TimerEvent: {}
+[6.405419] (simulator_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.468355] (-) TimerEvent: {}
+[6.568989] (-) TimerEvent: {}
+[6.669664] (-) TimerEvent: {}
+[6.770591] (-) TimerEvent: {}
+[6.871312] (-) TimerEvent: {}
+[6.972092] (-) TimerEvent: {}
+[7.026660] (simulator_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.072243] (-) TimerEvent: {}
+[7.172878] (-) TimerEvent: {}
+[7.256050] (simulator_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.273029] (-) TimerEvent: {}
+[7.373689] (-) TimerEvent: {}
+[7.474339] (-) TimerEvent: {}
+[7.574981] (-) TimerEvent: {}
+[7.675802] (-) TimerEvent: {}
+[7.776697] (-) TimerEvent: {}
+[7.849453] (simulator_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.876843] (-) TimerEvent: {}
+[7.977522] (-) TimerEvent: {}
+[8.078364] (-) TimerEvent: {}
+[8.179018] (-) TimerEvent: {}
+[8.182090] (simulator_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.191376] (simulator_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.197725] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.279208] (-) TimerEvent: {}
+[8.379949] (-) TimerEvent: {}
+[8.480745] (-) TimerEvent: {}
+[8.525493] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.526349] (simulator_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.580925] (-) TimerEvent: {}
+[8.681783] (-) TimerEvent: {}
+[8.782598] (-) TimerEvent: {}
+[8.836581] (simulator_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.838350] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.882809] (-) TimerEvent: {}
+[8.983683] (-) TimerEvent: {}
+[9.084909] (-) TimerEvent: {}
+[9.094563] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.095446] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.185254] (-) TimerEvent: {}
+[9.286070] (-) TimerEvent: {}
+[9.386823] (-) TimerEvent: {}
+[9.396741] (simulator_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.400249] (simulator_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.486989] (-) TimerEvent: {}
+[9.587732] (-) TimerEvent: {}
+[9.688425] (-) TimerEvent: {}
+[9.789110] (-) TimerEvent: {}
+[9.889775] (-) TimerEvent: {}
+[9.990494] (-) TimerEvent: {}
+[10.091122] (-) TimerEvent: {}
+[10.133688] (simulator_node) StdoutLine: {'line': b'-- Found common_msgs: 0.0.0 (/home/ubuntu/UAV_ws/install/common_msgs/share/common_msgs/cmake)\n'}
+[10.180536] (simulator_node) StdoutLine: {'line': b'-- Found grampc-d: 0.0.0 (/home/ubuntu/UAV_ws/install/grampc-d/share/grampc-d/cmake)\n'}
+[10.188909] (simulator_node) StdoutLine: {'line': b'-- Found libs: 0.0.0 (/home/ubuntu/UAV_ws/install/libs/share/libs/cmake)\n'}
+[10.191285] (-) TimerEvent: {}
+[10.220688] (simulator_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.291443] (-) TimerEvent: {}
+[10.392132] (-) TimerEvent: {}
+[10.492774] (-) TimerEvent: {}
+[10.593467] (-) TimerEvent: {}
+[10.628329] (simulator_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.629234] (simulator_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.629840] (simulator_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.634198] (simulator_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.639734] (simulator_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.640370] (simulator_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.642869] (simulator_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.668086] (simulator_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.693645] (-) TimerEvent: {}
+[10.714853] (simulator_node) StdoutLine: {'line': b'-- Generating done\n'}
+[10.722760] (simulator_node) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/UAV_ws/build/simulator_node\n'}
+[10.752101] (simulator_node) CommandEnded: {'returncode': 0}
+[10.754084] (simulator_node) JobProgress: {'identifier': 'simulator_node', 'progress': 'build'}
+[10.756578] (simulator_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/UAV_ws/build/simulator_node', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/UAV_ws/build/simulator_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 46080 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/UAV_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/simulator_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 46080 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy')]), 'shell': False}
+[10.793873] (-) TimerEvent: {}
+[10.894736] (-) TimerEvent: {}
+[10.945365] (simulator_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simulator_node_exe\x1b[0m\n'}
+[10.994911] (-) TimerEvent: {}
+[11.095670] (-) TimerEvent: {}
+[11.146743] (simulator_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simulator_node_exe.dir/src/simulator_node.cpp.o\x1b[0m\n'}
+[11.195833] (-) TimerEvent: {}
+[11.296554] (-) TimerEvent: {}
+[11.397208] (-) TimerEvent: {}
+[11.497882] (-) TimerEvent: {}
+[11.598549] (-) TimerEvent: {}
+[11.699231] (-) TimerEvent: {}
+[11.799985] (-) TimerEvent: {}
+[11.900669] (-) TimerEvent: {}
+[12.001430] (-) TimerEvent: {}
+[12.102137] (-) TimerEvent: {}
+[12.202802] (-) TimerEvent: {}
+[12.303470] (-) TimerEvent: {}
+[12.404186] (-) TimerEvent: {}
+[12.504888] (-) TimerEvent: {}
+[12.605635] (-) TimerEvent: {}
+[12.706330] (-) TimerEvent: {}
+[12.807073] (-) TimerEvent: {}
+[12.907781] (-) TimerEvent: {}
+[13.008509] (-) TimerEvent: {}
+[13.109271] (-) TimerEvent: {}
+[13.210002] (-) TimerEvent: {}
+[13.310733] (-) TimerEvent: {}
+[13.411457] (-) TimerEvent: {}
+[13.512215] (-) TimerEvent: {}
+[13.612902] (-) TimerEvent: {}
+[13.713609] (-) TimerEvent: {}
+[13.814358] (-) TimerEvent: {}
+[13.915164] (-) TimerEvent: {}
+[14.015922] (-) TimerEvent: {}
+[14.116618] (-) TimerEvent: {}
+[14.217293] (-) TimerEvent: {}
+[14.317988] (-) TimerEvent: {}
+[14.418797] (-) TimerEvent: {}
+[14.519506] (-) TimerEvent: {}
+[14.620219] (-) TimerEvent: {}
+[14.720930] (-) TimerEvent: {}
+[14.821681] (-) TimerEvent: {}
+[14.922575] (-) TimerEvent: {}
+[15.023312] (-) TimerEvent: {}
+[15.124011] (-) TimerEvent: {}
+[15.224711] (-) TimerEvent: {}
+[15.325414] (-) TimerEvent: {}
+[15.426196] (-) TimerEvent: {}
+[15.526985] (-) TimerEvent: {}
+[15.627710] (-) TimerEvent: {}
+[15.728456] (-) TimerEvent: {}
+[15.829164] (-) TimerEvent: {}
+[15.929872] (-) TimerEvent: {}
+[16.030637] (-) TimerEvent: {}
+[16.131385] (-) TimerEvent: {}
+[16.232103] (-) TimerEvent: {}
+[16.332825] (-) TimerEvent: {}
+[16.433515] (-) TimerEvent: {}
+[16.534253] (-) TimerEvent: {}
+[16.634978] (-) TimerEvent: {}
+[16.735750] (-) TimerEvent: {}
+[16.836465] (-) TimerEvent: {}
+[16.935245] (simulator_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimulatorNode::SimulatorNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.936035] (simulator_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:76:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kmodel_parameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[16.936526] (-) TimerEvent: {}
+[16.936954] (simulator_node) StderrLine: {'line': b'   76 |         typeRNum \x1b[01;35m\x1b[Kmodel_parameters\x1b[m\x1b[K[num_xtraj + num_utraj + 2];\n'}
+[16.937479] (simulator_node) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.976087] (simulator_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:26:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[16.976658] (simulator_node) StderrLine: {'line': b'   26 |         bool \x1b[01;35m\x1b[Kfo\x1b[m\x1b[K = file.is_open();\n'}
+[16.977041] (simulator_node) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[16.977448] (simulator_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/UAV_ws/src/simulator_node/src/simulator_node.cpp:64:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KTsim\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[16.977818] (simulator_node) StderrLine: {'line': b'   64 |         const typeRNum \x1b[01;35m\x1b[KTsim\x1b[m\x1b[K = 3.3;\n'}
+[16.978172] (simulator_node) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.036707] (-) TimerEvent: {}
+[17.137527] (-) TimerEvent: {}
+[17.238249] (-) TimerEvent: {}
+[17.338964] (-) TimerEvent: {}
+[17.439670] (-) TimerEvent: {}
+[17.540476] (-) TimerEvent: {}
+[17.641219] (-) TimerEvent: {}
+[17.741948] (-) TimerEvent: {}
+[17.842713] (-) TimerEvent: {}
+[17.943406] (-) TimerEvent: {}
+[18.044133] (-) TimerEvent: {}
+[18.144815] (-) TimerEvent: {}
+[18.245550] (-) TimerEvent: {}
+[18.346251] (-) TimerEvent: {}
+[18.446972] (-) TimerEvent: {}
+[18.547709] (-) TimerEvent: {}
+[18.648493] (-) TimerEvent: {}
+[18.749256] (-) TimerEvent: {}
+[18.849997] (-) TimerEvent: {}
+[18.950703] (-) TimerEvent: {}
+[19.051443] (-) TimerEvent: {}
+[19.152173] (-) TimerEvent: {}
+[19.252869] (-) TimerEvent: {}
+[19.353631] (-) TimerEvent: {}
+[19.454330] (-) TimerEvent: {}
+[19.555089] (-) TimerEvent: {}
+[19.655834] (-) TimerEvent: {}
+[19.756564] (-) TimerEvent: {}
+[19.857252] (-) TimerEvent: {}
+[19.958003] (-) TimerEvent: {}
+[20.058800] (-) TimerEvent: {}
+[20.159508] (-) TimerEvent: {}
+[20.260238] (-) TimerEvent: {}
+[20.360921] (-) TimerEvent: {}
+[20.461611] (-) TimerEvent: {}
+[20.562379] (-) TimerEvent: {}
+[20.663074] (-) TimerEvent: {}
+[20.763780] (-) TimerEvent: {}
+[20.864500] (-) TimerEvent: {}
+[20.965205] (-) TimerEvent: {}
+[21.065885] (-) TimerEvent: {}
+[21.166667] (-) TimerEvent: {}
+[21.267377] (-) TimerEvent: {}
+[21.368065] (-) TimerEvent: {}
+[21.468749] (-) TimerEvent: {}
+[21.569469] (-) TimerEvent: {}
+[21.670175] (-) TimerEvent: {}
+[21.770879] (-) TimerEvent: {}
+[21.871714] (-) TimerEvent: {}
+[21.972486] (-) TimerEvent: {}
+[22.073199] (-) TimerEvent: {}
+[22.173905] (-) TimerEvent: {}
+[22.274680] (-) TimerEvent: {}
+[22.375652] (-) TimerEvent: {}
+[22.476400] (-) TimerEvent: {}
+[22.577110] (-) TimerEvent: {}
+[22.677809] (-) TimerEvent: {}
+[22.779262] (-) TimerEvent: {}
+[22.880146] (-) TimerEvent: {}
+[22.980857] (-) TimerEvent: {}
+[23.081566] (-) TimerEvent: {}
+[23.182304] (-) TimerEvent: {}
+[23.283047] (-) TimerEvent: {}
+[23.383794] (-) TimerEvent: {}
+[23.484594] (-) TimerEvent: {}
+[23.585298] (-) TimerEvent: {}
+[23.686018] (-) TimerEvent: {}
+[23.786717] (-) TimerEvent: {}
+[23.887503] (-) TimerEvent: {}
+[23.988251] (-) TimerEvent: {}
+[24.088947] (-) TimerEvent: {}
+[24.189638] (-) TimerEvent: {}
+[24.290321] (-) TimerEvent: {}
+[24.391032] (-) TimerEvent: {}
+[24.491723] (-) TimerEvent: {}
+[24.592423] (-) TimerEvent: {}
+[24.693098] (-) TimerEvent: {}
+[24.793777] (-) TimerEvent: {}
+[24.894480] (-) TimerEvent: {}
+[24.995178] (-) TimerEvent: {}
+[25.095957] (-) TimerEvent: {}
+[25.196634] (-) TimerEvent: {}
+[25.297317] (-) TimerEvent: {}
+[25.397988] (-) TimerEvent: {}
+[25.498726] (-) TimerEvent: {}
+[25.599432] (-) TimerEvent: {}
+[25.700141] (-) TimerEvent: {}
+[25.800866] (-) TimerEvent: {}
+[25.901529] (-) TimerEvent: {}
+[26.002253] (-) TimerEvent: {}
+[26.102959] (-) TimerEvent: {}
+[26.203650] (-) TimerEvent: {}
+[26.304360] (-) TimerEvent: {}
+[26.405059] (-) TimerEvent: {}
+[26.505749] (-) TimerEvent: {}
+[26.606451] (-) TimerEvent: {}
+[26.707201] (-) TimerEvent: {}
+[26.807953] (-) TimerEvent: {}
+[26.908644] (-) TimerEvent: {}
+[27.009382] (-) TimerEvent: {}
+[27.110118] (-) TimerEvent: {}
+[27.210907] (-) TimerEvent: {}
+[27.311680] (-) TimerEvent: {}
+[27.412424] (-) TimerEvent: {}
+[27.513160] (-) TimerEvent: {}
+[27.613863] (-) TimerEvent: {}
+[27.714570] (-) TimerEvent: {}
+[27.815264] (-) TimerEvent: {}
+[27.916007] (-) TimerEvent: {}
+[28.016708] (-) TimerEvent: {}
+[28.117425] (-) TimerEvent: {}
+[28.218179] (-) TimerEvent: {}
+[28.318916] (-) TimerEvent: {}
+[28.419660] (-) TimerEvent: {}
+[28.520382] (-) TimerEvent: {}
+[28.621073] (-) TimerEvent: {}
+[28.721846] (-) TimerEvent: {}
+[28.822585] (-) TimerEvent: {}
+[28.923317] (-) TimerEvent: {}
+[29.024037] (-) TimerEvent: {}
+[29.124773] (-) TimerEvent: {}
+[29.225493] (-) TimerEvent: {}
+[29.326312] (-) TimerEvent: {}
+[29.427441] (-) TimerEvent: {}
+[29.528280] (-) TimerEvent: {}
+[29.629032] (-) TimerEvent: {}
+[29.729803] (-) TimerEvent: {}
+[29.830546] (-) TimerEvent: {}
+[29.931274] (-) TimerEvent: {}
+[30.032038] (-) TimerEvent: {}
+[30.132718] (-) TimerEvent: {}
+[30.233512] (-) TimerEvent: {}
+[30.334414] (-) TimerEvent: {}
+[30.435329] (-) TimerEvent: {}
+[30.536113] (-) TimerEvent: {}
+[30.637033] (-) TimerEvent: {}
+[30.737737] (-) TimerEvent: {}
+[30.740716] (simulator_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simulator_node_exe\x1b[0m\n'}
+[30.838077] (-) TimerEvent: {}
+[30.938976] (-) TimerEvent: {}
+[31.039992] (-) TimerEvent: {}
+[31.140914] (-) TimerEvent: {}
+[31.241694] (-) TimerEvent: {}
+[31.342955] (-) TimerEvent: {}
+[31.443800] (-) TimerEvent: {}
+[31.544683] (-) TimerEvent: {}
+[31.645304] (-) TimerEvent: {}
+[31.746208] (-) TimerEvent: {}
+[31.847386] (-) TimerEvent: {}
+[31.948589] (-) TimerEvent: {}
+[32.049987] (-) TimerEvent: {}
+[32.151066] (-) TimerEvent: {}
+[32.251967] (-) TimerEvent: {}
+[32.352890] (-) TimerEvent: {}
+[32.453744] (-) TimerEvent: {}
+[32.554652] (-) TimerEvent: {}
+[32.655570] (-) TimerEvent: {}
+[32.756522] (-) TimerEvent: {}
+[32.857356] (-) TimerEvent: {}
+[32.958803] (-) TimerEvent: {}
+[33.059609] (-) TimerEvent: {}
+[33.160772] (-) TimerEvent: {}
+[33.261973] (-) TimerEvent: {}
+[33.362809] (-) TimerEvent: {}
+[33.463739] (-) TimerEvent: {}
+[33.564612] (-) TimerEvent: {}
+[33.665572] (-) TimerEvent: {}
+[33.766483] (-) TimerEvent: {}
+[33.867116] (-) TimerEvent: {}
+[33.967809] (-) TimerEvent: {}
+[34.068839] (-) TimerEvent: {}
+[34.169608] (-) TimerEvent: {}
+[34.270538] (-) TimerEvent: {}
+[34.371195] (-) TimerEvent: {}
+[34.471977] (-) TimerEvent: {}
+[34.572681] (-) TimerEvent: {}
+[34.673369] (-) TimerEvent: {}
+[34.774289] (-) TimerEvent: {}
+[34.874914] (-) TimerEvent: {}
+[34.975619] (-) TimerEvent: {}
+[35.076346] (-) TimerEvent: {}
+[35.177462] (-) TimerEvent: {}
+[35.278229] (-) TimerEvent: {}
+[35.379131] (-) TimerEvent: {}
+[35.479939] (-) TimerEvent: {}
+[35.580583] (-) TimerEvent: {}
+[35.681332] (-) TimerEvent: {}
+[35.781952] (-) TimerEvent: {}
+[35.882571] (-) TimerEvent: {}
+[35.983210] (-) TimerEvent: {}
+[36.083952] (-) TimerEvent: {}
+[36.184687] (-) TimerEvent: {}
+[36.285371] (-) TimerEvent: {}
+[36.356523] (simulator_node) StdoutLine: {'line': b'[100%] Built target simulator_node_exe\n'}
+[36.385554] (-) TimerEvent: {}
+[36.397039] (simulator_node) CommandEnded: {'returncode': 0}
+[36.485842] (-) TimerEvent: {}
+[36.523230] (simulator_node) JobProgress: {'identifier': 'simulator_node', 'progress': 'install'}
+[36.565161] (simulator_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/UAV_ws/build/simulator_node'], 'cwd': '/home/ubuntu/UAV_ws/build/simulator_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.3.11 46080 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib:/home/ubuntu/UAV_ws/install/grampc-d/lib:/home/ubuntu/UAV_ws/install/libs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('GRADLE_HOME', '/home/ubuntu/.sdkman/candidates/gradle/current'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/UAV_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/home/ubuntu/.sdkman/candidates/gradle/current/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SDKMAN_CANDIDATES_DIR', '/home/ubuntu/.sdkman/candidates'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SDKMAN_DIR', '/home/ubuntu/.sdkman'), ('SDKMAN_PLATFORM', 'linuxarm64'), ('AMENT_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/ubuntu/UAV_ws/build/simulator_node'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.11 46080 192.168.3.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/UAV_ws/install/common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/UAV_ws/install/grampc-d:/home/ubuntu/UAV_ws/install/libs:/home/ubuntu/UAV_ws/install/common_msgs:/home/ubuntu/UAV_ws/install/uav_launch:/home/ubuntu/UAV_ws/install/simulator_node:/home/ubuntu/UAV_ws/install/mpc_node:/opt/ros/foxy')]), 'shell': False}
+[36.586017] (-) TimerEvent: {}
+[36.605904] (simulator_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.610444] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/lib/simulator_node/simulator_node_exe\n'}
+[36.675800] (simulator_node) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/UAV_ws/install/simulator_node/lib/simulator_node/simulator_node_exe" to ""\n'}
+[36.676516] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/package_run_dependencies/simulator_node\n'}
+[36.677499] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/parent_prefix_path/simulator_node\n'}
+[36.678705] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.sh\n'}
+[36.679192] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/ament_prefix_path.dsv\n'}
+[36.680166] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/path.sh\n'}
+[36.680615] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/environment/path.dsv\n'}
+[36.681549] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.bash\n'}
+[36.681976] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.sh\n'}
+[36.682362] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.zsh\n'}
+[36.682737] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/local_setup.dsv\n'}
+[36.683536] (simulator_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/package.dsv\n'}
+[36.684632] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/ament_index/resource_index/packages/simulator_node\n'}
+[36.685704] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig.cmake\n'}
+[36.686192] (-) TimerEvent: {}
+[36.686636] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/cmake/simulator_nodeConfig-version.cmake\n'}
+[36.687167] (simulator_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/UAV_ws/install/simulator_node/share/simulator_node/package.xml\n'}
+[36.691533] (simulator_node) CommandEnded: {'returncode': 0}
+[36.789563] (-) TimerEvent: {}
+[36.893925] (-) TimerEvent: {}
+[36.995820] (-) TimerEvent: {}
+[37.096631] (-) TimerEvent: {}
+[37.197914] (-) TimerEvent: {}
+[37.298788] (-) TimerEvent: {}
+[37.400953] (-) TimerEvent: {}
+[37.501807] (-) TimerEvent: {}
+[37.603509] (-) TimerEvent: {}
+[37.705616] (-) TimerEvent: {}
+[37.806429] (-) TimerEvent: {}
+[37.907183] (-) TimerEvent: {}
+[38.008427] (-) TimerEvent: {}
+[38.113729] (-) TimerEvent: {}
+[38.215988] (-) TimerEvent: {}
+[38.316949] (-) TimerEvent: {}
+[38.419919] (-) TimerEvent: {}
+[38.520863] (-) TimerEvent: {}
+[38.621682] (-) TimerEvent: {}
+[38.722540] (-) TimerEvent: {}
+[38.830178] (-) TimerEvent: {}
+[38.935083] (-) TimerEvent: {}
+[39.035856] (-) TimerEvent: {}
+[39.139163] (-) TimerEvent: {}
+[39.240684] (-) TimerEvent: {}
+[39.341417] (-) TimerEvent: {}
+[39.343039] (simulator_node) JobEnded: {'identifier': 'simulator_node', 'rc': 0}
+[39.346466] (-) EventReactorShutdown: {}

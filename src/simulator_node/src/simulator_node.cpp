@@ -14,8 +14,8 @@ public:
         interface->initialize_central_communicationInterface();
         std::vector<typeRNum> xdes = { 0.0, 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 };
         std::vector<typeRNum> udes{ 0.0, 0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0 ,0.0};
-        const std::string x_traj_file = "/home/evan/UAV_ws/src/mpc_node/Traj/x_traj_rotor1_failure_3.txt";
-        const std::string u_traj_file = "/home/evan/UAV_ws/src/mpc_node/Traj/u_traj_rotor1_failure_3.txt";
+        const std::string x_traj_file = "/home/ubuntu/UAV_ws/src/mpc_node/Traj/x_traj_rotor1_failure_3.txt";
+        const std::string u_traj_file = "/home/ubuntu/UAV_ws/src/mpc_node/Traj/u_traj_rotor1_failure_3.txt";
         interface->setFilename("x_traj_file", x_traj_file);
         interface->setFilename("u_traj_file", u_traj_file);
 
@@ -119,7 +119,7 @@ private:
         RCLCPP_INFO(this->get_logger(), "%s", ss.str().c_str());
         }
  */
-        const std::string x_traj_file = "/home/evan/UAV_ws/src/mpc_node/Traj/x_traj_rotor1_failure_3.txt";
+        const std::string x_traj_file = "/home/ubuntu/UAV_ws/src/mpc_node/Traj/x_traj_rotor1_failure_3.txt";
         interface->lineReader(interface->x_next, 9, x_traj_file, 1);
         auto message = common_msgs::msg::State();
         for (int i = 0; i < 9; ++i)
