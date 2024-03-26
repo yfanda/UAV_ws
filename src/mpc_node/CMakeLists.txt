@@ -12,6 +12,7 @@ find_package(std_msgs REQUIRED)
 find_package(libs REQUIRED)
 find_package(grampc-d REQUIRED)
 find_package(common_msgs REQUIRED)
+find_package(px4_msgs REQUIRED)
 
 add_executable(mpc_node_exe src/mpc_node.cpp)
 ament_target_dependencies(mpc_node_exe
@@ -19,6 +20,7 @@ ament_target_dependencies(mpc_node_exe
   common_msgs
   grampc-d
   libs
+  px4_msgs
 )
 
 install(TARGETS

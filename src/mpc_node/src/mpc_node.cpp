@@ -172,6 +172,7 @@ private:
     rclcpp::Subscription<common_msgs::msg::State>::SharedPtr subscriber_;
     int iMPC;
     std::shared_ptr<grampcd::DmpcInterface> interface;
+    rclcpp::Subscription<px4_msgs::msg::SensorCombined>::SharedPtr subscription_;
 };
 
 int main(int argc, char **argv)
