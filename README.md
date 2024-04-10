@@ -41,7 +41,7 @@ This ros2 repository implements a MPC node to control the UAV transit from an un
     sudo apt install ros-foxy-eigen3-cmake-module
     sudo pip3 install -U empy pyros-genmsg setuptools # if pip3 not install, then, sudo apt install python3-pip
 ### clone the relevant repositories
-    git clone -b raspbi https://github.com/yfanda/UAV_ws.git
+    git clone -b raspi https://github.com/yfanda/UAV_ws.git
     cd ~/UAV_ws/src
     git clone git@git-ce.rwth-aachen.de:tuda-fsr/hardware-in-the-loop-pruefstand/px4_msgs.git
     git clone git@git-ce.rwth-aachen.de:tuda-fsr/hardware-in-the-loop-pruefstand/px4_ros_com.git
