@@ -2,8 +2,6 @@
 #include "common_msgs/msg/state.hpp" 
 #include "common_msgs/msg/input.hpp" 
 #include <px4_msgs/msg/sensor_combined.hpp>
-#include <px4_msgs/msg/RaspberryPiToPixhawk.hpp>
-#include <px4_msgs/msg/PixhawkToRaspberryPi.hpp>
 #include "libs/grampc.hpp"
 #include "grampcd/interface/dmpc_interface.hpp"
 #include <memory>
